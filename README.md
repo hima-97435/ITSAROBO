@@ -39,7 +39,7 @@ ITSAROBO is a custom-built AI chatbot designed to answer queries related to UPES
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/itsarobo-ai-bot.git
+git clone https://github.com/hima-97435/ITSAROBO
 cd itsarobo-ai-bot
 ```
 
@@ -95,21 +95,3 @@ docker run -d \
 3. Semantic search filters the best results
 4. The top result is passed to an LLM to summarize the page
 5. The answer is converted to audio using TTS and spoken aloud
-
----
-
-## 🎯 Design Focus
-
-- Local + private search (no rate limits or external APIs)
-- Use of latest summarization models
-- Smooth voice integration
-- Light on cost: all components are free or open source
-
----
-
-## 🧪 Future Ideas
-
-- Streamlit or Gradio UI
-- Add memory for follow-up questions
-- Dynamic model selection
-- Deploy as API service
