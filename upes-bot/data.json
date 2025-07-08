@@ -1,0 +1,3234 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created_date": "2025-06-09",
+    "last_updated": "2025-06-09",
+    "total_entries": 10,
+    "description": "UPES University Knowledge Base for Chatbot",
+    "maintainer": "Your Name",
+    "data_sources": [
+      "official_website",
+      "brochures",
+      "handbooks",
+      "notices"
+    ]
+  },
+  "categories": {
+    "admissions": {
+      "name": "Admissions & Enrollment",
+      "description": "Application process, eligibility, entrance exams, deadlines",
+      "priority": 1
+    },
+    "academics": {
+      "name": "Academic Programs",
+      "description": "Courses, curriculum, departments, faculty, academic calendar",
+      "priority": 2
+    },
+    "fees": {
+      "name": "Fees & Financial Aid",
+      "description": "Fee structure, scholarships, payment methods, financial assistance",
+      "priority": 1
+    },
+    "campus_life": {
+      "name": "Campus Life & Facilities",
+      "description": "Hostels, mess, library, sports, clubs, events",
+      "priority": 3
+    },
+    "placements": {
+      "name": "Placements & Career",
+      "description": "Job opportunities, placement statistics, company visits, internships",
+      "priority": 2
+    },
+    "contact": {
+      "name": "Contact Information",
+      "description": "Phone numbers, addresses, office hours, department contacts",
+      "priority": 1
+    },
+    "facilities": {
+      "name": "Infrastructure & Facilities",
+      "description": "Labs, libraries, hostels, transportation, medical facilities",
+      "priority": 3
+    },
+    "policies": {
+      "name": "Rules & Policies",
+      "description": "Academic policies, discipline, attendance, examination rules",
+      "priority": 3
+    }
+  },
+  "qa_pairs": [
+    {
+      "id": 1,
+      "question": "What is the admission process for B.Tech at UPES?",
+      "answer": "The B.Tech admission process at UPES involves the following steps:\n1. Fill the online application form\n2. Appear for UPESEAT (UPES Engineering Aptitude Test)\n3. Merit list publication based on UPESEAT scores\n4. Counseling and seat allocation\n5. Document verification and fee payment\n6. Final admission confirmation\n\nThe entire process typically takes place between March to July each year.",
+      "category": "admissions",
+      "keywords": [
+        "btech",
+        "admission",
+        "process",
+        "upeseat",
+        "counseling",
+        "application",
+        "engineering"
+      ],
+      "confidence_triggers": [
+        "admission process",
+        "how to apply",
+        "btech admission",
+        "engineering admission",
+        "application procedure"
+      ],
+      "related_question_ids": [
+        2,
+        3,
+        4
+      ],
+      "difficulty_level": "basic",
+      "frequency": "high",
+      "source": "official_website",
+      "source_url": "https://upes.ac.in/admissions/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "undergraduate",
+        "engineering",
+        "process"
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What are the eligibility criteria for UPES B.Tech admission?",
+      "answer": "The eligibility criteria for B.Tech admission at UPES are:\n\n**Academic Qualification:**\n- 10+2 or equivalent with Physics and Mathematics as compulsory subjects\n- Chemistry/Biology/Biotechnology/Computer Science as third subject\n- Minimum 50% aggregate marks (45% for SC/ST candidates)\n\n**Age Limit:**\n- Candidate should have been born on or after October 1, 1999\n\n**Additional Requirements:**\n- Valid UPESEAT score or JEE Main score\n- English proficiency (for international students)",
+      "category": "admissions",
+      "keywords": [
+        "eligibility",
+        "criteria",
+        "btech",
+        "qualification",
+        "marks",
+        "subjects",
+        "physics",
+        "mathematics"
+      ],
+      "confidence_triggers": [
+        "eligibility criteria",
+        "qualification required",
+        "minimum marks",
+        "subject requirements"
+      ],
+      "related_question_ids": [
+        1,
+        3
+      ],
+      "difficulty_level": "basic",
+      "frequency": "high",
+      "source": "admission_brochure",
+      "source_url": "https://upes.ac.in/admissions/eligibility/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "undergraduate",
+        "engineering",
+        "requirements"
+      ]
+    },
+    {
+      "id": 3,
+      "question": "When is UPESEAT conducted and what is the exam pattern?",
+      "answer": "**UPESEAT Schedule:**\n- Application Period: January to May\n- Exam Dates: Multiple slots in May-June\n- Results: Within 2 weeks of exam\n\n**Exam Pattern:**\n- Mode: Computer-based test (CBT)\n- Duration: 2 hours\n- Total Questions: 150\n- Sections: Physics (50), Chemistry (50), Mathematics (50)\n- Marking: +4 for correct, -1 for incorrect\n- Language: English\n\n**Syllabus:** Based on 10+2 Physics, Chemistry, and Mathematics curriculum (NCERT)",
+      "category": "admissions",
+      "keywords": [
+        "upeseat",
+        "exam",
+        "pattern",
+        "schedule",
+        "syllabus",
+        "dates",
+        "cbt",
+        "computer based"
+      ],
+      "confidence_triggers": [
+        "upeseat exam",
+        "exam pattern",
+        "when is upeseat",
+        "exam dates",
+        "test pattern"
+      ],
+      "related_question_ids": [
+        1,
+        2,
+        4
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "high",
+      "source": "exam_notification",
+      "source_url": "https://upes.ac.in/upeseat/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "entrance_exam",
+        "schedule",
+        "pattern"
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What is the fee structure for B.Tech programs at UPES?",
+      "answer": "**B.Tech Fee Structure (Annual):**\n\n**Tuition Fee:** ₹3,95,000 - ₹4,25,000 (varies by specialization)\n**Hostel Fee:** ₹1,50,000 - ₹2,00,000 (varies by room type)\n**Mess Fee:** ₹60,000 (annual)\n**Other Fees:** ₹25,000 (includes library, lab, sports, etc.)\n\n**Total Annual Cost:** ₹6,30,000 - ₹7,10,000 approximately\n\n**Payment Options:**\n- Annual payment with discount\n- Semester-wise payment\n- EMI options available\n\n**Scholarships:** Merit-based scholarships up to 100% tuition fee waiver available",
+      "category": "fees",
+      "keywords": [
+        "fee",
+        "structure",
+        "cost",
+        "tuition",
+        "hostel",
+        "mess",
+        "payment",
+        "scholarship",
+        "btech"
+      ],
+      "confidence_triggers": [
+        "fee structure",
+        "how much fees",
+        "cost of btech",
+        "tuition fees",
+        "total cost"
+      ],
+      "related_question_ids": [
+        5,
+        6
+      ],
+      "difficulty_level": "basic",
+      "frequency": "very_high",
+      "source": "fee_notification",
+      "source_url": "https://upes.ac.in/fees/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "fees",
+        "cost",
+        "payment"
+      ]
+    },
+    {
+      "id": 5,
+      "question": "What scholarship opportunities are available at UPES?",
+      "answer": "**Merit-Based Scholarships:**\n- UPESEAT toppers: Up to 100% tuition fee waiver\n- JEE Main qualified: 25-75% scholarship based on percentile\n- Board toppers: 50% tuition fee waiver\n\n**Need-Based Scholarships:**\n- Financial assistance for economically weaker sections\n- Up to 50% fee concession\n\n**Sports/Cultural Scholarships:**\n- National/State level achievers: 25-100% scholarship\n- Continuing students with achievements: Fee concessions\n\n**Special Scholarships:**\n- Girl child scholarship: 25% fee concession\n- Defense personnel ward: 20% concession\n- Alumni ward: 15% concession\n\n**Application:** Submit application with required documents during admission process",
+      "category": "fees",
+      "keywords": [
+        "scholarship",
+        "financial aid",
+        "merit",
+        "concession",
+        "fee waiver",
+        "sports",
+        "cultural"
+      ],
+      "confidence_triggers": [
+        "scholarship available",
+        "financial aid",
+        "fee concession",
+        "merit scholarship"
+      ],
+      "related_question_ids": [
+        4,
+        6
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "high",
+      "source": "scholarship_brochure",
+      "source_url": "https://upes.ac.in/scholarships/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "scholarship",
+        "financial_aid",
+        "merit"
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Does UPES offer education loans or financial assistance?",
+      "answer": "Yes, UPES has collaborations with several banks to facilitate education loans for students. They also provide financial assistance to economically weaker sections through various schemes. Students can contact the financial aid office for detailed information and assistance in applying for loans and other financial support options.",
+      "category": "fees",
+      "keywords": [
+        "education loan",
+        "financial assistance",
+        "loan",
+        "support",
+        "banks"
+      ],
+      "confidence_triggers": [
+        "education loan",
+        "financial assistance",
+        "loan options",
+        "help with fees"
+      ],
+      "related_question_ids": [
+        4,
+        5
+      ],
+      "difficulty_level": "basic",
+      "frequency": "medium",
+      "source": "financial_aid_office",
+      "source_url": "https://upes.ac.in/financial-aid/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "financial_aid",
+        "loans"
+      ]
+    },
+    {
+      "id": 7,
+      "question": "What academic programs are offered at UPES other than B.Tech?",
+      "answer": "Beyond B.Tech, UPES offers a wide range of academic programs including:\n- **Undergraduate:** BBA, BCA, B.Des, LLB, BA (Hons.), B.Com (Hons.)\n- **Postgraduate:** MBA, M.Tech, M.Des, LLM\n- **Doctoral:** PhD programs across various disciplines\n\nSpecializations are available in fields like Computer Science, Law, Design, Business, and Energy.",
+      "category": "academics",
+      "keywords": [
+        "academic programs",
+        "courses",
+        "degrees",
+        "mba",
+        "bba",
+        "llb",
+        "mtech",
+        "phd"
+      ],
+      "confidence_triggers": [
+        "other programs",
+        "what courses",
+        "list of courses",
+        "programs offered"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "basic",
+      "frequency": "high",
+      "source": "official_website",
+      "source_url": "https://upes.ac.in/programs/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "academic_programs",
+        "courses"
+      ]
+    },
+    {
+      "id": 8,
+      "question": " ",
+      "answer": "UPES provides separate hostel facilities for boys and girls with various room options (single, double, triple sharing). All hostels are equipped with:\n- 24/7 security and warden supervision\n- Wi-Fi connectivity\n- Common areas for recreation and study\n- Laundry services\n- Medical assistance\n- Mess facilities providing nutritious meals\n\nHostel fees vary based on room type and amenities.",
+      "category": "campus_life",
+      "keywords": [
+        "hostel",
+        "accommodation",
+        "facilities",
+        "mess",
+        "rooms",
+        "boarding"
+      ],
+      "confidence_triggers": [
+        "hostel facilities",
+        "accommodation",
+        "living on campus",
+        "hostel fees"
+      ],
+      "related_question_ids": [
+        4
+      ],
+      "difficulty_level": "basic",
+      "frequency": "medium",
+      "source": "brochures",
+      "source_url": "https://upes.ac.in/campus-life/hostels/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "campus_life",
+        "hostel"
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What is the placement record of UPES for engineering graduates?",
+      "answer": "UPES has a strong placement record for its engineering graduates. Key highlights include:\n- **Placement Rate:** Consistently above 90% for eligible students\n- **Highest Salary:** ₹50 Lakhs per annum (LPA) in recent years\n- **Average Salary:** ₹8-10 LPA\n- **Top Recruiters:** Leading companies from IT, Energy, Core Engineering, and Consulting sectors like IBM, Wipro, Infosys, Tech Mahindra, Shell, ExxonMobil, Deloitte.\n\nThe university's Career Services Department actively assists students with internships, resume building, and interview preparation.",
+      "category": "placements",
+      "keywords": [
+        "placement",
+        "jobs",
+        "salary",
+        "recruiters",
+        "internships",
+        "career"
+      ],
+      "confidence_triggers": [
+        "placement record",
+        "job opportunities",
+        "highest package",
+        "average salary",
+        "companies visiting"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "intermediate",
+      "frequency": "high",
+      "source": "placement_report",
+      "source_url": "https://upes.ac.in/placements/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "placements",
+        "career"
+      ]
+    },
+    {
+      "id": 10,
+      "question": "How can I contact UPES for admission inquiries?",
+      "answer": "For admission inquiries, you can contact UPES through the following channels:\n\n**Toll-Free Number:** 1800 102 8737\n**Email:** admissions@upes.ac.in\n**Admission Office Address:**\nUPES Admission Office, Bidholi Campus, Energy Acres, P.O. Bidholi, Via Prem Nagar, Dehradun - 248007, Uttarakhand, India.\n\nOffice hours are typically Monday to Friday, 9:00 AM to 5:00 PM.",
+      "category": "contact",
+      "keywords": [
+        "contact",
+        "phone number",
+        "email",
+        "address",
+        "admission office",
+        "inquiry"
+      ],
+      "confidence_triggers": [
+        "contact upes",
+        "admission contact",
+        "phone number",
+        "email address",
+        "how to reach"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "basic",
+      "frequency": "high",
+      "source": "official_website",
+      "source_url": "https://upes.ac.in/contact-us/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "contact"
+      ]
+    }
+    ,
+    {
+      "id": 11,
+      "question": "What extracurricular activities and clubs are available at UPES?",
+      "answer": "UPES offers a vibrant campus life with numerous extracurricular activities and student clubs. These include:\n- **Technical Clubs:** Robotics Club, Coding Club, AI/ML Club, Automobile Club\n- **Cultural Clubs:** Dance, Music, Drama, Photography, Literary Club\n- **Sports Clubs:** Cricket, Football, Basketball, Volleyball, Chess\n- **Social & Community Service:** NSS, Enactus, various environmental and awareness groups\n- **Leadership & Entrepreneurship:** E-Cell, Debate Club\n\nStudents are encouraged to join clubs based on their interests to foster holistic development.",
+      "category": "campus_life",
+      "keywords": [
+        "extracurricular",
+        "clubs",
+        "activities",
+        "sports",
+        "cultural",
+        "technical",
+        "student life"
+      ],
+      "confidence_triggers": [
+        "extracurricular activities",
+        "student clubs",
+        "campus life",
+        "what can I do outside studies"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "basic",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://upes.ac.in/campus-life/clubs-activities/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "campus_life",
+        "clubs",
+        "activities"
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Does UPES provide transportation facilities for students?",
+      "answer": "Yes, UPES provides comprehensive transportation facilities for day scholars and students residing off-campus. The university operates a fleet of buses covering major routes in Dehradun and surrounding areas. This ensures convenient and safe travel for students to and from the campus. Specific routes and timings can be obtained from the transport department.",
+      "category": "facilities",
+      "keywords": [
+        "transportation",
+        "buses",
+        "commute",
+        "travel",
+        "day scholar"
+      ],
+      "confidence_triggers": [
+        "transport facilities",
+        "bus service",
+        "how to get to campus",
+        "transportation for students"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "basic",
+      "frequency": "low",
+      "source": "official_website",
+      "source_url": "https://upes.ac.in/campus-life/transportation/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "facilities",
+        "transport"
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What is the policy on attendance at UPES?",
+      "answer": "UPES has a strict attendance policy. Students are required to maintain a minimum of 75% attendance in each subject to be eligible to appear for examinations. Shortage of attendance may lead to debarring from examinations or other disciplinary actions. Regular attendance is emphasized for academic success.",
+      "category": "policies",
+      "keywords": [
+        "attendance",
+        "policy",
+        "rules",
+        "minimum attendance",
+        "exams",
+        "discipline"
+      ],
+      "confidence_triggers": [
+        "attendance policy",
+        "attendance rules",
+        "minimum attendance",
+        "attendance requirements"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "intermediate",
+      "frequency": "medium",
+      "source": "student_handbook",
+      "source_url": "https://upes.ac.in/academic-policies/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "policies",
+        "academic"
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Are there medical facilities available on campus at UPES?",
+      "answer": "Yes, UPES provides comprehensive medical facilities on campus. There is a health center with qualified doctors and nursing staff available 24/7 for medical emergencies. The campus also has an ambulance service for immediate transfer to nearby hospitals if required. Basic medical aid, first aid, and regular check-ups are also provided.",
+      "category": "facilities",
+      "keywords": [
+        "medical",
+        "health",
+        "clinic",
+        "first aid",
+        "emergency",
+        "doctor"
+      ],
+      "confidence_triggers": [
+        "medical facilities",
+        "health center",
+        "doctor on campus",
+        "emergency medical"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "basic",
+      "frequency": "low",
+      "source": "official_website",
+      "source_url": "https://upes.ac.in/campus-life/medical-facilities/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "facilities",
+        "health"
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What kind of industry collaborations does UPES have for student exposure?",
+      "answer": "UPES emphasizes strong industry collaborations to provide students with practical exposure and enhance their employability. These collaborations include:\n- **Guest Lectures and Workshops:** Industry experts sharing insights.\n- **Internship Opportunities:** Placements in leading companies.\n- **Joint Research Projects:** Students working on real-world problems.\n- **Curriculum Development:** Industry feedback integrated into academic programs.\n- **Centre of Excellence:** Partnerships with companies like IBM, Xebia, L&T, Siemens for specialized training.\n\nThese collaborations help bridge the gap between academia and industry requirements.",
+      "category": "academics",
+      "keywords": [
+        "industry collaboration",
+        "exposure",
+        "internship",
+        "research",
+        "partnerships",
+        "companies"
+      ],
+      "confidence_triggers": [
+        "industry ties",
+        "company collaborations",
+        "industry exposure",
+        "corporate partnerships"
+      ],
+      "related_question_ids": [
+        9
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://upes.ac.in/industry-partnerships/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "academics",
+        "industry"
+      ]
+    }
+    ,
+    {
+      "id": 16,
+      "question": "What is the procedure for obtaining academic transcripts from UPES?",
+      "answer": "To obtain academic transcripts from UPES, students typically need to:\n1. Fill out the transcript request form available on the university's official website or the Registrar's office.\n2. Pay the requisite fees for transcript processing.\n3. Submit copies of their mark sheets/grade reports for all semesters/years.\n4. Provide a valid ID proof.\n\nThe processing time usually varies from 7-15 working days. Transcripts can be collected in person or mailed to a specified address.",
+      "category": "academics",
+      "keywords": [
+        "transcripts",
+        "academic records",
+        "marksheet",
+        "grade report",
+        "procedure",
+        "apply"
+      ],
+      "confidence_triggers": [
+        "how to get transcripts",
+        "academic transcript",
+        "transcript request",
+        "obtain records"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "intermediate",
+      "frequency": "low",
+      "source": "registrar_office",
+      "source_url": "https://upes.ac.in/student-services/transcripts/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "academics",
+        "documents"
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Are there any provisions for international students at UPES?",
+      "answer": "Yes, UPES has a dedicated International Admissions team to assist prospective international students. Provisions include:\n- Simplified application process for foreign nationals.\n- Guidance on visa procedures and immigration requirements.\n- English proficiency test waivers (for certain nationalities/educational backgrounds).\n- Dedicated support for accommodation and cultural integration.\n- Specific scholarship opportunities for international students.\n\nInternational students can find detailed information on the university's international admissions portal.",
+      "category": "admissions",
+      "keywords": [
+        "international students",
+        "foreign nationals",
+        "visa",
+        "admission",
+        "scholarships",
+        "global"
+      ],
+      "confidence_triggers": [
+        "international student admission",
+        "study for foreigners",
+        "foreign student support",
+        "visa process"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "intermediate",
+      "frequency": "medium",
+      "source": "international_admissions_office",
+      "source_url": "https://upes.ac.in/international-admissions/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "admissions",
+        "international"
+      ]
+    },
+    {
+      "id": 18,
+      "question": "What kind of research opportunities are available for students at UPES?",
+      "answer": "UPES strongly promotes research and innovation among its students and faculty. Opportunities include:\n- **Student Research Projects:** Undergraduate and postgraduate students can engage in research under faculty mentorship.\n- **Research Centers:** Dedicated centers for various disciplines (e.g., Energy, Artificial Intelligence, Cybersecurity).\n- **Innovation and Incubation Centre:** Support for entrepreneurial ideas and startups.\n- **Conferences and Publications:** Students are encouraged to present papers at national/international conferences and publish in journals.\n- **Grants and Funding:** Opportunities to apply for internal and external research grants.\n\nThe university emphasizes interdisciplinary research and industry-sponsored projects.",
+      "category": "academics",
+      "keywords": [
+        "research",
+        "innovation",
+        "projects",
+        "incubation",
+        "phd",
+        "faculty",
+        "grants"
+      ],
+      "confidence_triggers": [
+        "research opportunities",
+        "student research",
+        "innovation center",
+        "research grants"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "advanced",
+      "frequency": "low",
+      "source": "research_portal",
+      "source_url": "https://upes.ac.in/research/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "academics",
+        "research",
+        "innovation"
+      ]
+    },
+    {
+      "id": 19,
+      "question": "How can I apply for a re-evaluation of my answer sheet at UPES?",
+      "answer": "Students can apply for re-evaluation of their answer sheets by following these steps:\n1. Obtain the re-evaluation application form from the examination department or download it from the university portal.\n2. Fill the form accurately and specify the subjects/papers for re-evaluation.\n3. Pay the prescribed re-evaluation fee per subject.\n4. Submit the form along with a copy of the original mark sheet within the stipulated deadline (usually 10-15 days after result declaration).\n\nThe decision of the re-evaluation committee is final.",
+      "category": "policies",
+      "keywords": [
+        "re-evaluation",
+        "answer sheet",
+        "exam",
+        "results",
+        "application",
+        "marks"
+      ],
+      "confidence_triggers": [
+        "re-evaluation of marks",
+        "recheck exam paper",
+        "how to apply for re-evaluation",
+        "exam review"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "intermediate",
+      "frequency": "medium",
+      "source": "examination_handbook",
+      "source_url": "https://upes.ac.in/exam-policies/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "policies",
+        "academics",
+        "exams"
+      ]
+    },
+    {
+      "id": 20,
+      "question": "What is the procedure for withdrawing admission and getting a fee refund?",
+      "answer": "The procedure for withdrawing admission and seeking a fee refund at UPES is as follows:\n1. Submit a formal written application for withdrawal to the Admission Office.\n2. The refund amount will be processed as per the university's refund policy, which aligns with UGC guidelines. This typically involves deductions based on the date of withdrawal and commencement of classes.\n3. Provide necessary bank details for the refund transfer.\n\nIt is advisable to check the detailed refund policy on the official website or contact the admissions team for exact calculations.",
+      "category": "admissions",
+      "keywords": [
+        "withdrawal",
+        "refund",
+        "admission cancel",
+        "fee refund policy",
+        "cancellation"
+      ],
+      "confidence_triggers": [
+        "admission withdrawal",
+        "fee refund",
+        "cancel admission",
+        "refund policy"
+      ],
+      "related_question_ids": [
+        4
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://upes.ac.in/admissions/refund-policy/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "admissions",
+        "fees",
+        "policy"
+      ]
+    },
+    {
+      "id": 21,
+      "question": "Are internships mandatory for UPES students, and what support is provided?",
+      "answer": "Yes, internships are a mandatory component of most academic programs at UPES, especially for B.Tech and MBA students. The university's Career Services Department provides extensive support for internships, including:\n- **Internship Fairs:** Connecting students with companies.\n- **Resume Building & Interview Preparation:** Workshops and one-on-one sessions.\n- **Industry Mentorship:** Guidance from professionals.\n- **Project Guidance:** Support for internship projects.\n\nThese internships provide valuable real-world experience and enhance employability.",
+      "category": "placements",
+      "keywords": [
+        "internships",
+        "mandatory",
+        "industrial training",
+        "career services",
+        "placement"
+      ],
+      "confidence_triggers": [
+        "internship requirements",
+        "do I need to do an internship",
+        "internship support",
+        "mandatory internships"
+      ],
+      "related_question_ids": [
+        9
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "high",
+      "source": "placement_cell",
+      "source_url": "https://upes.ac.in/internships/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "placements",
+        "internships"
+      ]
+    },
+    {
+      "id": 22,
+      "question": "What is the student-faculty ratio at UPES?",
+      "answer": "The student-faculty ratio at UPES is maintained to ensure personalized attention and effective learning. While it varies slightly across departments and programs, it generally stands at around 15:1 to 20:1. This allows for closer interaction between students and faculty, facilitating better academic guidance and mentorship.",
+      "category": "academics",
+      "keywords": [
+        "student-faculty ratio",
+        "teacher student ratio",
+        "faculty",
+        "class size",
+        "academic"
+      ],
+      "confidence_triggers": [
+        "student faculty ratio",
+        "how many students per teacher",
+        "faculty count"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "basic",
+      "frequency": "low",
+      "source": "university_statistics",
+      "source_url": "https://upes.ac.in/about-us/facts-figures/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "academics",
+        "faculty"
+      ]
+    },
+    {
+      "id": 23,
+      "question": "Does UPES offer dual specialization programs?",
+      "answer": "Yes, UPES offers dual specialization programs, particularly in its MBA and BBA courses, allowing students to gain expertise in two distinct areas. This helps students broaden their skill sets and enhance their career prospects. Students can choose their dual specializations based on their interests and career goals, typically after the first year of their program.",
+      "category": "academics",
+      "keywords": [
+        "dual specialization",
+        "double major",
+        "mba",
+        "bba",
+        "specialization options"
+      ],
+      "confidence_triggers": [
+        "dual specialization",
+        "double degree",
+        "two specializations",
+        "mba specializations"
+      ],
+      "related_question_ids": [
+        7
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "low",
+      "source": "program_brochures",
+      "source_url": "https://upes.ac.in/mba-programs/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "academics",
+        "programs"
+      ]
+    },
+    {
+      "id": 24,
+      "question": "What are the security measures implemented on the UPES campus?",
+      "answer": "UPES prioritizes the safety and security of its students, faculty, and staff. Key security measures include:\n- **24/7 CCTV Surveillance:** Extensive camera coverage across the campus.\n- **Professional Security Guards:** Trained personnel deployed at entry/exit points and patrolling the premises.\n- **Controlled Access:** Entry and exit points are monitored.\n- **Emergency Response System:** Protocols for handling emergencies.\n- **Anti-Ragging Policy:** Strict implementation and vigilance against ragging.\n- **Fire Safety Systems:** Regular drills and well-maintained equipment.\n\nStudents are also provided with emergency contact numbers.",
+      "category": "campus_life",
+      "keywords": [
+        "security",
+        "safety",
+        "campus security",
+        "cctv",
+        "anti-ragging",
+        "emergency"
+      ],
+      "confidence_triggers": [
+        "campus security",
+        "safety measures",
+        "is upes safe",
+        "security on campus"
+      ],
+      "related_question_ids": [
+        8
+      ],
+      "difficulty_level": "basic",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://upes.ac.in/campus-life/safety-security/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "campus_life",
+        "security",
+        "facilities"
+      ]
+    },
+    {
+      "id": 25,
+      "question": "Does UPES offer distance learning or online programs?",
+      "answer": "Currently, UPES primarily offers on-campus, full-time programs to ensure a holistic learning experience and direct faculty-student interaction. While some specialized short-term certificate courses or executive education programs might have online components, the core degree programs (B.Tech, MBA, etc.) are delivered in a traditional, in-person format. Students interested in online learning should check the official website for any new updates on specific programs.",
+      "category": "academics",
+      "keywords": [
+        "distance learning",
+        "online programs",
+        "correspondence courses",
+        "e-learning",
+        "virtual classes"
+      ],
+      "confidence_triggers": [
+        "online courses",
+        "distance education",
+        "can I study online",
+        "remote learning"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "intermediate",
+      "frequency": "low",
+      "source": "official_website",
+      "source_url": "https://upes.ac.in/academic-programs/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "academics",
+        "programs"
+      ]
+    },
+    {
+      "id": 26,
+      "question": "What is the procedure for semester registration at UPES?",
+      "answer": "Semester registration at UPES typically involves the following steps:\n1. **Online Registration:** Students register for their courses and electives through the university's online portal.\n2. **Academic Advising:** Consultation with faculty advisors to ensure appropriate course selection.\n3. **Fee Clearance:** Ensuring all outstanding tuition and other fees for the upcoming semester are paid.\n4. **Document Verification (if required):** Any pending document submissions or updates.\n\nDeadlines for registration are communicated well in advance by the academic affairs office. Late registration may incur penalties.",
+      "category": "academics",
+      "keywords": [
+        "registration",
+        "semester",
+        "course registration",
+        "enrollment",
+        "academic calendar"
+      ],
+      "confidence_triggers": [
+        "how to register for semester",
+        "semester registration process",
+        "course enrollment",
+        "academic registration"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "basic",
+      "frequency": "high",
+      "source": "academic_calendar",
+      "source_url": "https://upes.ac.in/academic-calendar/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "academics",
+        "registration"
+      ]
+    },
+    {
+      "id": 27,
+      "question": "Does UPES have a student grievance redressal mechanism?",
+      "answer": "Yes, UPES has a well-defined student grievance redressal mechanism to address student concerns and complaints effectively. This typically includes:\n- **Grievance Redressal Committee:** A dedicated committee to hear and resolve student grievances.\n- **Ombudsperson:** An appointed authority to oversee the process.\n- **Online Grievance Portal:** A platform for students to submit their complaints confidentially.\n- **Counseling Services:** Support for personal and academic issues.\n\nStudents are encouraged to approach the appropriate authorities for any issues they may face.",
+      "category": "policies",
+      "keywords": [
+        "grievance",
+        "complaint",
+        "redressal",
+        "student support",
+        "ombudsperson",
+        "issues"
+      ],
+      "confidence_triggers": [
+        "student complaints",
+        "grievance mechanism",
+        "how to complain",
+        "student support"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "intermediate",
+      "frequency": "low",
+      "source": "student_handbook",
+      "source_url": "https://upes.ac.in/grievance-redressal/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "policies",
+        "student_support"
+      ]
+    },
+    {
+      "id": 28,
+      "question": "What is the provision for credit transfer from other universities to UPES?",
+      "answer": "UPES may allow credit transfer for students coming from other recognized universities, subject to specific conditions. The process generally involves:\n1. **Application:** Submission of an application for credit transfer along with official transcripts and course syllabi from the previous institution.\n2. **Equivalence Assessment:** The academic department evaluates the courses and determines their equivalence to UPES's curriculum.\n3. **Minimum Grade Requirement:** A minimum grade or percentage in the transferred courses is usually required.\n4. **Credit Limit:** There might be a limit on the maximum number of credits that can be transferred.\n\nEach case is assessed individually, and students are advised to contact the Admissions or Academic Affairs office for detailed guidance.",
+      "category": "admissions",
+      "keywords": [
+        "credit transfer",
+        "transferring",
+        "other university",
+        "academic credit",
+        "equivalence"
+      ],
+      "confidence_triggers": [
+        "transfer credits",
+        "credit transfer policy",
+        "can I transfer from another university",
+        "academic transfer"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "advanced",
+      "frequency": "low",
+      "source": "academic_regulations",
+      "source_url": "https://upes.ac.in/academic-regulations/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "admissions",
+        "academics"
+      ]
+    },
+    {
+      "id": 29,
+      "question": "Are there opportunities for student exchange programs at UPES?",
+      "answer": "Yes, UPES actively promotes global exposure through various student exchange programs and collaborations with international universities. These opportunities allow students to:\n- Study a semester or year abroad at partner institutions.\n- Participate in short-term international projects or workshops.\n- Engage in cultural exchange programs.\n\nInformation regarding available programs, eligibility criteria, and application procedures is usually provided by the International Affairs office.",
+      "category": "academics",
+      "keywords": [
+        "student exchange",
+        "study abroad",
+        "international programs",
+        "global exposure",
+        "partner universities"
+      ],
+      "confidence_triggers": [
+        "exchange programs",
+        "study abroad",
+        "international opportunities",
+        "global exchange"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "intermediate",
+      "frequency": "low",
+      "source": "international_affairs_office",
+      "source_url": "https://upes.ac.in/international-collaborations/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "academics",
+        "international"
+      ]
+    },
+    {
+      "id": 30,
+      "question": "What kind of library facilities are available at UPES?",
+      "answer": "The UPES Library is a central hub for academic resources and offers extensive facilities, including:\n- **Vast Collection:** A large collection of books, journals, periodicals, and e-resources (e-books, online databases).\n- **Digital Library:** Access to a wide range of online academic materials.\n- **Reading Rooms:** Comfortable and conducive spaces for individual and group study.\n- **Computer Terminals:** Workstations with internet access for research.\n- **Lending Services:** Book borrowing and inter-library loan facilities.\n- **Reference Services:** Assistance from library staff for research and resource discovery.\n\nThe library operates with extended hours, especially during examination periods.",
+      "category": "facilities",
+      "keywords": [
+        "library",
+        "books",
+        "journals",
+        "digital library",
+        "reading room",
+        "resources"
+      ],
+      "confidence_triggers": [
+        "library facilities",
+        "what kind of library",
+        "digital resources",
+        "library access"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "basic",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://upes.ac.in/campus-life/library/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "facilities",
+        "library"
+      ]
+    },
+    {
+      "id": 31,
+      "question": "What is the procedure for obtaining a Bonafide Certificate from UPES?",
+      "answer": "Students can obtain a Bonafide Certificate from UPES by following this procedure:\n1. **Application:** Submit a written application or fill out the prescribed form at the Registrar's office or Student Welfare Department.\n2. **Purpose:** Clearly state the purpose for which the certificate is required (e.g., passport, visa, bank loan, travel concession).\n3. **Identification:** Provide student ID card and any other required identification.\n4. **Processing Time:** The certificate is usually issued within 2-3 working days.\n\nThere might be a nominal fee associated with the application.",
+      "category": "campus_life",
+      "keywords": [
+        "bonafide certificate",
+        "certificate",
+        "proof of enrollment",
+        "student documents",
+        "procedure"
+      ],
+      "confidence_triggers": [
+        "how to get bonafide certificate",
+        "bonafide for students",
+        "proof of being a student"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "basic",
+      "frequency": "medium",
+      "source": "student_welfare_department",
+      "source_url": "https://upes.ac.in/student-services/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "campus_life",
+        "documents"
+      ]
+    },
+    {
+      "id": 32,
+      "question": "Does UPES offer a flexible exit option for students?",
+      "answer": "UPES, in line with the National Education Policy (NEP) 2020, is exploring and implementing flexible exit options for certain programs. This means students may be able to exit with a certificate, diploma, or degree at various stages of their program, provided they meet the specific credit and course requirements for that exit point. Students should consult their respective department or the academic regulations for details on programs offering this flexibility.",
+      "category": "academics",
+      "keywords": [
+        "flexible exit",
+        "NEP",
+        "multiple entry exit",
+        "certificate",
+        "diploma",
+        "degree options"
+      ],
+      "confidence_triggers": [
+        "flexible exit option",
+        "can I leave early with a degree",
+        "NEP policy UPES"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "intermediate",
+      "frequency": "low",
+      "source": "academic_regulations",
+      "source_url": "https://upes.ac.in/nep-initiatives/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "academics",
+        "policy"
+      ]
+    },
+    {
+      "id": 33,
+      "question": "What support services are available for students with disabilities at UPES?",
+      "answer": "UPES is committed to providing an inclusive environment and offers various support services for students with disabilities. These may include:\n- **Accessibility:** Ramps, elevators, and accessible restrooms across the campus.\n- **Academic Support:** Provision of scribes, extra time during exams, and assistive technologies.\n- **Counseling:** Specialized counseling services to address unique needs.\n- **Dedicated Support Staff:** Personnel to assist with navigation and academic integration.\n\nStudents requiring such support are encouraged to register with the Student Welfare Department to avail these facilities.",
+      "category": "campus_life",
+      "keywords": [
+        "disability support",
+        "accessible campus",
+        "special needs",
+        "inclusive education",
+        "support services"
+      ],
+      "confidence_triggers": [
+        "support for disabled students",
+        "accessibility UPES",
+        "special needs services"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "intermediate",
+      "frequency": "low",
+      "source": "student_welfare_department",
+      "source_url": "https://upes.ac.in/student-services/disability-support/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "campus_life",
+        "student_support"
+      ]
+    },
+    {
+      "id": 34,
+      "question": "Are there specific dress code regulations for students at UPES?",
+      "answer": "UPES expects students to adhere to a formal and presentable dress code, especially during academic hours, official events, and professional interactions. While there isn't a strict uniform, the general guidelines are:\n- **Formal/Semi-Formal Attire:** Especially for classes, labs, and official meetings.\n- **No Casual Wear:** T-shirts with offensive slogans, torn jeans, or overly revealing clothing are generally discouraged.\n- **Specific Requirements:** Some labs or workshops might have specific safety-related dress codes (e.g., closed-toe shoes).\n\nProfessional attire is often mandatory for placements and industry visits.",
+      "category": "policies",
+      "keywords": [
+        "dress code",
+        "attire",
+        "student appearance",
+        "formal wear",
+        "campus rules"
+      ],
+      "confidence_triggers": [
+        "what is the dress code",
+        "dress regulations",
+        "student attire rules"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "basic",
+      "frequency": "low",
+      "source": "student_handbook",
+      "source_url": "https://upes.ac.in/student-code-of-conduct/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "policies",
+        "campus_life"
+      ]
+    },
+    {
+      "id": 35,
+      "question": "What kind of alumni network does UPES have?",
+      "answer": "UPES boasts a strong and active alumni network spread across various industries and countries. The alumni association actively engages with current students and the university through:\n- **Mentorship Programs:** Alumni guiding current students on career paths.\n- **Guest Lectures and Workshops:** Sharing industry experiences.\n- **Networking Events:** Connecting students with industry professionals.\n- **Job Referrals:** Assisting with placement opportunities.\n- **Alumni Chapters:** Regional and international chapters for continued engagement.\n\nThe university leverages its alumni network for placements, industry insights, and institutional development.",
+      "category": "placements",
+      "keywords": [
+        "alumni network",
+        "graduates",
+        "former students",
+        "mentorship",
+        "networking",
+        "career"
+      ],
+      "confidence_triggers": [
+        "alumni association",
+        "alumni support",
+        "past students",
+        "how strong is the alumni network"
+      ],
+      "related_question_ids": [
+        9
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "low",
+      "source": "official_website",
+      "source_url": "https://upes.ac.in/alumni/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "placements",
+        "career",
+        "alumni"
+      ]
+    },
+    {
+      "id": 36,
+      "question": "What is the vision and mission of UPES?",
+      "answer": "UPES's vision is to be a 'University of Tomorrow' that fosters a future where every organization and individual is committed to sustainable practices, harmonizing economic growth with environmental stewardship. Its mission is to equip current and future leaders with the knowledge and skills required to effect impactful change, fostering a deep understanding of sustainability and ESG principles to lead Net Zero transitions, champion circularity initiatives, and balance risk, return, and impact.",
+      "category": "about_upes",
+      "keywords": [
+        "vision",
+        "mission",
+        "philosophy",
+        "goals",
+        "sustainability",
+        "ESG"
+      ],
+      "confidence_triggers": [
+        "UPES vision",
+        "UPES mission",
+        "what is UPES about",
+        "university goals"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "basic",
+      "frequency": "low",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/rise",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "upes_info",
+        "philosophy"
+      ]
+    },
+    {
+      "id": 37,
+      "question": "What are the major rankings and accreditations of UPES?",
+      "answer": "UPES holds significant national and international rankings and accreditations. It is accredited by NAAC with an 'A' grade and recognized by UGC. Key rankings include:\n- **NIRF 2024:** Ranked #59 Overall, #42 in Engineering, #41 in Management, and #46 in University category.\n- **QS World University Rankings 2025:** Ranked 801-850 globally.\n- **Times Higher Education Ranking 2024:** Ranked 801-1000 Overall.\n\nMany of its specific programs are also accredited by the National Board of Accreditation (NBA).",
+      "category": "about_upes",
+      "keywords": [
+        "rankings",
+        "accreditations",
+        "NIRF",
+        "QS",
+        "NAAC",
+        "UGC",
+        "NBA",
+        "awards"
+      ],
+      "confidence_triggers": [
+        "UPES ranking",
+        "UPES accreditation",
+        "UPES recognition",
+        "university awards"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "basic",
+      "frequency": "high",
+      "source": "official_website",
+      "source_url": "https://www.kollegeapply.com/colleges/upes-dehradun-dehradun-7043240/ranking",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "upes_info",
+        "ranking",
+        "accreditation"
+      ]
+    },
+    {
+      "id": 38,
+      "question": "When was UPES established and what was its initial focus?",
+      "answer": "UPES was established in 2003 in Dehradun, Uttarakhand, through the UPES Act, 2003. Initially, the university gained prominence for its specialized programs in the energy and petroleum sectors, such as B.Tech in Petroleum Engineering. Over the years, it has expanded its offerings to include diverse fields like Engineering, Computer Science, Law, Design, Business, and Liberal Studies, while maintaining its industry-aligned curriculum.",
+      "category": "about_upes",
+      "keywords": [
+        "establishment",
+        "founding year",
+        "history",
+        "initial focus",
+        "petroleum",
+        "energy"
+      ],
+      "confidence_triggers": [
+        "when was upes founded",
+        "upes history",
+        "initial focus of UPES",
+        "year established"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "basic",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://merouttarakhand.com/university/upes-dehradun/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "upes_info",
+        "history"
+      ]
+    },
+    {
+      "id": 39,
+      "question": "What are the unique selling propositions (USPs) of UPES?",
+      "answer": "UPES differentiates itself through several unique selling propositions, including:\n- **Industry-aligned Curriculum:** Designed with continuous input from industry experts.\n- **Specialized Programs:** Offering niche and future-focused specializations in various domains.\n- **Strong Industry Collaborations:** Partnerships for guest lectures, workshops, and internships.\n- **Global Opportunities:** Student exchange programs and international collaborations.\n- **Employability Focus:** High placement rates and emphasis on career readiness through practical training and soft skills development.\n- **Research & Innovation:** Dedicated centers and opportunities for student research and entrepreneurship.",
+      "category": "about_upes",
+      "keywords": [
+        "USP",
+        "unique features",
+        "differentiators",
+        "advantages",
+        "specializations",
+        "employability"
+      ],
+      "confidence_triggers": [
+        "why choose UPES",
+        "what makes UPES unique",
+        "UPES advantages",
+        "differentiating factors"
+      ],
+      "related_question_ids": [
+        15,
+        21
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "high",
+      "source": "official_website",
+      "source_url": "https://www.careermarg.com/college/university-of-petroleum-energy-studies-upes",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "upes_info",
+        "unique"
+      ]
+    },
+    {
+      "id": 40,
+      "question": "What is the total campus area of UPES in Dehradun?",
+      "answer": "UPES operates two main campuses in Dehradun: the Bidholi Campus and the Kandoli Campus, collectively spanning a total area of approximately 44 acres. The university is known for its green campus and modern infrastructure, providing a conducive environment for learning and student life amidst the serene Himalayan foothills.",
+      "category": "facilities",
+      "keywords": [
+        "campus area",
+        "size",
+        "campuses",
+        "Dehradun",
+        "infrastructure"
+      ],
+      "confidence_triggers": [
+        "UPES campus size",
+        "how big is UPES",
+        "campus area"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "basic",
+      "frequency": "low",
+      "source": "official_website",
+      "source_url": "https://www.collegedekho.com/colleges/upes-university-dehradun-campus",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "upes_info",
+        "campus"
+      ]
+    },
+    {
+      "id": 41,
+      "question": "How many schools of study does UPES comprise?",
+      "answer": "UPES is a multi-disciplinary university structured into several specialized schools of study, each focusing on distinct academic disciplines. Currently, UPES comprises eight schools: the School of Advanced Engineering, School of Computer Science, School of Business, School of Law, School of Design, School of Health Sciences and Technology, and the School of Liberal Studies and Media. This structure allows for focused learning and interdisciplinary opportunities.",
+      "category": "academics",
+      "keywords": [
+        "schools of study",
+        "departments",
+        "academic structure",
+        "faculties",
+        "streams"
+      ],
+      "confidence_triggers": [
+        "how many schools in UPES",
+        "UPES academic structure",
+        "UPES departments"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "basic",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/admissions/fee-structure",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "upes_info",
+        "academics"
+      ]
+    },
+    {
+      "id": 42,
+      "question": "What is UPES's focus on research and innovation?",
+      "answer": "UPES places a significant emphasis on research and innovation, fostering a culture of inquiry and problem-solving. It has a dedicated Research and Innovation Unit that supports various initiatives, including student and faculty research projects, interdisciplinary collaborations, and industry-sponsored research. The university encourages patents, publications, and the development of startups through its Innovation and Incubation Centre, aiming to address complex global challenges and contribute to societal impact.",
+      "category": "academics",
+      "keywords": [
+        "research",
+        "innovation",
+        "R&D",
+        "incubation",
+        "patents",
+        "publications",
+        "startups"
+      ],
+      "confidence_triggers": [
+        "UPES research focus",
+        "innovation at UPES",
+        "research opportunities"
+      ],
+      "related_question_ids": [
+        18
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/research/research-and-innovation-units",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "upes_info",
+        "research"
+      ]
+    },
+    {
+      "id": 43,
+      "question": "What is the student strength at UPES?",
+      "answer": "UPES is a large and diverse university, accommodating a significant number of students across its various programs. While exact real-time figures fluctuate, the university generally has over 15,000 students enrolled in its undergraduate, postgraduate, and doctoral programs, ensuring a vibrant and diverse student community from across India and abroad.",
+      "category": "about_upes",
+      "keywords": [
+        "student strength",
+        "enrollment",
+        "number of students",
+        "student body",
+        "demographics"
+      ],
+      "confidence_triggers": [
+        "how many students in UPES",
+        "UPES student count",
+        "student population"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "basic",
+      "frequency": "low",
+      "source": "university_statistics",
+      "source_url": "https://www.jagranjosh.com/colleges/university-of-petroleum-and-energy-studies-upes-dehradun-56",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "upes_info",
+        "statistics"
+      ]
+    },
+    {
+      "id": 44,
+      "question": "What are UPES's core values?",
+      "answer": "UPES is built upon a foundation of core values that guide its academic and operational philosophy. While specific phrasing may vary, these values typically include:\n- **Respect:** Fostering an environment of mutual respect and dignity.\n- **Innovation:** Encouraging creativity, pioneering new ideas, and adopting advanced approaches.\n- **Passion:** Instilling enthusiasm and dedication towards learning and excellence.\n- **Inclusivity:** Promoting diversity and ensuring equal opportunities for all.\n- **Trust:** Upholding integrity, transparency, and ethical conduct.\n\nThese values collectively shape the university's culture and contribute to holistic development.",
+      "category": "about_upes",
+      "keywords": [
+        "core values",
+        "principles",
+        "philosophy",
+        "ethics",
+        "culture"
+      ],
+      "confidence_triggers": [
+        "UPES values",
+        "what are UPES principles",
+        "university culture"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "basic",
+      "frequency": "low",
+      "source": "official_website",
+      "source_url": "https://www.careermarg.com/college/university-of-petroleum-energy-studies-upes",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "upes_info",
+        "philosophy"
+      ]
+    },
+    {
+      "id": 45,
+      "question": "Does UPES have a strong focus on interdisciplinary learning?",
+      "answer": "Yes, UPES places a strong emphasis on interdisciplinary learning, recognizing its importance in preparing students for complex global challenges. The university's academic structure, with its multiple specialized schools, facilitates cross-disciplinary collaboration in coursework, research projects, and extracurricular activities. Many programs are designed to integrate knowledge from different fields, allowing students to develop a holistic understanding and problem-solving skills relevant to modern industries.",
+      "category": "academics",
+      "keywords": [
+        "interdisciplinary",
+        "cross-disciplinary",
+        "holistic learning",
+        "multi-disciplinary",
+        "integrated curriculum"
+      ],
+      "confidence_triggers": [
+        "interdisciplinary at UPES",
+        "cross-discipline learning",
+        "integrated studies"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "intermediate",
+      "frequency": "low",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/academic-programs/",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "upes_info",
+        "academics"
+      ]
+    },
+    {
+      "id": 46,
+      "question": "What is UPES's governance structure and leadership hierarchy?",
+      "answer": "UPES operates with a well-defined governance structure. At the top, there is the Visitor (Lieutenant General Gurmit Singh PVSM, UYSM, AVSM, VSM), followed by the President (Dr. Sunil Rai) and the Vice-Chancellor (Dr. Ram Sharma). The university's governance is overseen by various statutory bodies such as the Board of Governors, Board of Management, Academic Council, and Finance Committee. These bodies include university officials, deans of schools, and external experts, ensuring a robust and transparent decision-making process for academic, administrative, and financial matters.",
+      "category": "about_upes",
+      "keywords": [
+        "governance",
+        "leadership",
+        "management",
+        "structure",
+        "board of governors",
+        "vice chancellor"
+      ],
+      "confidence_triggers": [
+        "UPES governance",
+        "who leads UPES",
+        "university hierarchy",
+        "UPES leadership"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "intermediate",
+      "frequency": "low",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/leadership",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "upes_info",
+        "governance"
+      ]
+    },
+    {
+      "id": 47,
+      "question": "How does UPES engage with the local community and society?",
+      "answer": "UPES is deeply committed to social responsibility and community engagement through various impactful initiatives. While not directly under CSR regulations as a not-for-profit, UPES leverages its human resources and expertise. Key initiatives include:\n- **LearnShalas:** Adopting government schools and creating vibrant learning centers.\n- **Srijan Social Internship Program:** First-year students work with over 1230 NGOs, contributing significant human days to impactful projects.\n- **Project Naman, EDUDHURMA, Abhilasha, Vikalp, Payal, Utthan, Vriddhi, Samwedna, Bodh, Raftaar, Protsaahan, Swachhta, Samarth:** Various projects focusing on supporting martyrs' families, education, gender inclusivity, digital literacy, and village transformation.\n\nThese efforts aim to address local needs and foster a resilient and sustainable society.",
+      "category": "social_impact",
+      "keywords": [
+        "community engagement",
+        "CSR",
+        "social responsibility",
+        "local community",
+        "initiatives",
+        "NGO partnerships"
+      ],
+      "confidence_triggers": [
+        "UPES community involvement",
+        "social impact UPES",
+        "UPES CSR activities",
+        "how UPES helps society"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "intermediate",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/social-impact",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "upes_info",
+        "community"
+      ]
+    },
+    {
+      "id": 48,
+      "question": "What sustainability and ESG initiatives are part of UPES's core focus?",
+      "answer": "Sustainability and ESG (Environmental, Social, and Governance) are core to UPES's vision as the 'University of Tomorrow'. The university has established the **RISE (Research on Impact, Sustainability, and ESG) Center**, which focuses on:\n- **Research:** Advancing research in sustainability, ESG impact, climate change, and carbon neutrality.\n- **Education:** Offering academic and executive programs (e.g., Impact Specialist Program, AI for Sustainability).\n- **Projects:** Aiming for a Net Zero Campus by 2030, establishing a Sustainability Living Lab, and conducting SDG mapping and agentic AI for sustainable solutions.\n\nUPES strives to equip leaders with skills for Net Zero transitions, circularity initiatives, and balancing risk, return, and impact.",
+      "category": "sustainability",
+      "keywords": [
+        "sustainability",
+        "ESG",
+        "environmental",
+        "social",
+        "governance",
+        "net zero",
+        "circularity",
+        "RISE Center"
+      ],
+      "confidence_triggers": [
+        "UPES sustainability",
+        "ESG at UPES",
+        "green campus initiatives",
+        "carbon neutrality UPES"
+      ],
+      "related_question_ids": [
+        36
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/rise",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "upes_info",
+        "sustainability"
+      ]
+    },
+    {
+      "id": 49,
+      "question": "How does UPES foster student leadership and development?",
+      "answer": "UPES emphasizes holistic student development, including leadership skills. This is fostered through:\n- **Student Clubs and Societies:** Opportunities to lead and manage various technical, cultural, and sports clubs.\n- **Student Councils/Bodies:** Active participation in university governance and student affairs.\n- **Social Impact Programs:** Initiatives like Srijan Social Internship that build empathy and leadership.\n- **Mentorship and Advisory Roles:** Students are guided by faculty and alumni to take on leadership roles.\n- **Entrepreneurship and Innovation Cells:** Promoting leadership in launching and managing new ventures.\n\nThe university's educational philosophy aims to produce leaders who are not only professionally competent but also ethically strong and socially responsible.",
+      "category": "campus_life",
+      "keywords": [
+        "student leadership",
+        "leadership development",
+        "student organizations",
+        "councils",
+        "soft skills",
+        "mentorship"
+      ],
+      "confidence_triggers": [
+        "UPES leadership opportunities",
+        "student development UPES",
+        "how students become leaders"
+      ],
+      "related_question_ids": [
+        11,
+        39
+      ],
+      "difficulty_level": "basic",
+      "frequency": "low",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/leadership-details",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "upes_info",
+        "student_life"
+      ]
+    },
+    {
+      "id": 50,
+      "question": "What is the role of the Industry Advisory Board at UPES?",
+      "answer": "The Industry Advisory Board (IAB) at UPES plays a crucial role in ensuring the curriculum remains industry-relevant and preparing students for the evolving job market. The IAB comprises distinguished professionals and leaders from various industries. Their primary functions include:\n- **Curriculum Input:** Providing feedback and recommendations for course content and program design.\n- **Industry Trends:** Sharing insights on emerging technologies and market demands.\n- **Internship & Placement Opportunities:** Facilitating collaborations for practical training and recruitment.\n- **Mentorship:** Guiding students and faculty on career development and industry best practices.\n\nThis continuous dialogue ensures UPES graduates are highly sought after by employers.",
+      "category": "academics",
+      "keywords": [
+        "industry advisory board",
+        "IAB",
+        "industry collaboration",
+        "curriculum development",
+        "corporate ties",
+        "advisors"
+      ],
+      "confidence_triggers": [
+        "UPES industry board",
+        "role of industry in UPES",
+        "industry input to curriculum"
+      ],
+      "related_question_ids": [
+        15,
+        39
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "low",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/sitemap/advisory-board",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "upes_info",
+        "industry"
+      ]
+    },
+    {
+      "id": 51,
+      "question": "How does UPES ensure academic integrity and ethical conduct?",
+      "answer": "UPES is deeply committed to upholding the highest standards of academic integrity and ethical conduct. This commitment is reinforced through:\n- **Policy on Ethical Conduct:** A comprehensive framework guiding students, faculty, and staff in all interactions and decision-making.\n- **Strict Anti-Plagiarism Policies:** Emphasis on originality and proper attribution, with consequences for violations.\n- **Anti-Ragging and Anti-Discrimination Cells:** Dedicated mechanisms to ensure a safe and respectful environment.\n- **Internal Complaint Cell:** Addresses issues like sexual harassment, promoting a secure campus.\n- **Continuous Training and Awareness:** Providing resources and education to foster ethical behavior.\n- **Grievance Redressal Mechanism:** A fair system for addressing student and faculty concerns.",
+      "category": "policies",
+      "keywords": [
+        "academic integrity",
+        "ethical conduct",
+        "plagiarism",
+        "anti-ragging",
+        "anti-discrimination",
+        "sexual harassment policy"
+      ],
+      "confidence_triggers": [
+        "UPES ethics policy",
+        "academic honesty UPES",
+        "integrity at university"
+      ],
+      "related_question_ids": [
+        13,
+        27
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/assets/pdf/ethicalConduct.pdf",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "upes_info",
+        "policies"
+      ]
+    },
+    {
+      "id": 52,
+      "question": "What are the key areas of faculty expertise at UPES?",
+      "answer": "The faculty at UPES comprises a diverse group of highly qualified and experienced individuals with expertise across a broad spectrum of disciplines. Key areas of faculty expertise are aligned with the university's schools of study and include, but are not limited to:\n- **Advanced Engineering:** Petroleum, Mechanical, Electrical, Chemical, Aerospace, Civil, Renewable Energy, Materials Science.\n- **Computer Science:** AI/ML, Data Science, Cybersecurity, Cloud Computing, Blockchain, IoT.\n- **Business:** Oil & Gas Management, Logistics & Supply Chain, Financial Management, Marketing, Human Resources, Digital Business.\n- **Law:** Corporate Law, Energy Law, Cyber Law, Intellectual Property Rights, Criminal Law.\n- **Design:** Product Design, Transportation Design, Graphic Design, Fashion Design.\n- **Health Sciences & Technology:** Pharmaceutical Sciences, Nutrition, Public Health.\n- **Liberal Studies & Media:** Economics, Psychology, Journalism, Literature, Media Production.\n\nMany faculty members have significant industry experience and international exposure, enhancing the learning experience.",
+      "category": "academics",
+      "keywords": [
+        "faculty expertise",
+        "professor specialization",
+        "academic staff",
+        "research areas",
+        "subject matter experts"
+      ],
+      "confidence_triggers": [
+        "UPES faculty areas",
+        "faculty research interests",
+        "professor specializations"
+      ],
+      "related_question_ids": [
+        22
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/faculty",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "upes_info",
+        "academics",
+        "faculty"
+      ]
+    },
+    {
+      "id": 53,
+      "question": "How do UPES alumni contribute to the university's development?",
+      "answer": "UPES has a robust and engaged alumni network that significantly contributes to the university's ongoing development. Their contributions include:\n- **Mentorship and Career Guidance:** Alumni mentor current students, offering insights into industry and career paths.\n- **Placement and Internship Facilitation:** Leveraging their professional networks to create opportunities for students.\n- **Guest Lectures and Workshops:** Sharing real-world experiences and industry trends.\n- **Curriculum Feedback:** Providing valuable input to keep academic programs relevant.\n- **Networking Events:** Organizing and participating in events that connect students with industry leaders.\n- **Financial Contributions:** Some alumni contribute to scholarships or infrastructure development.\n- **Brand Ambassadors:** Representing UPES globally and enhancing its reputation.",
+      "category": "alumni",
+      "keywords": [
+        "alumni contribution",
+        "alumni network",
+        "university development",
+        "mentorship",
+        "placements",
+        "guest lectures"
+      ],
+      "confidence_triggers": [
+        "UPES alumni role",
+        "how alumni help university",
+        "alumni impact"
+      ],
+      "related_question_ids": [
+        35
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "low",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/placement/alumni-connect",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "upes_info",
+        "alumni"
+      ]
+    },
+    {
+      "id": 54,
+      "question": "What is the educational philosophy that underpins UPES's academic approach?",
+      "answer": "UPES's educational philosophy is rooted in nurturing 'Tomorrow's Trailblazers' and focuses on a holistic, industry-aligned, and outcome-based approach. Key aspects include:\n- **Industry Relevance:** Curriculum designed with continuous industry input to ensure graduates are job-ready.\n- **Experiential Learning:** Emphasis on practical implementation through labs, projects, and internships.\n- **Critical Thinking & Problem-Solving:** Fostering intellectual curiosity and the ability to address complex challenges.\n- **Ethics & Entrepreneurship:** Integrating strong ethical foundations and entrepreneurial skills into programs.\n- **Lifelong Learning:** Instilling an integrative thought process to encourage continuous learning.\n- **Global Outlook:** Promoting global exposure through collaborations and diverse faculty.\n\nThe university aims to inspire dreams, ignite curiosity, and motivate action to define the vision for tomorrow.",
+      "category": "about_upes",
+      "keywords": [
+        "educational philosophy",
+        "academic approach",
+        "pedagogy",
+        "learning style",
+        "outcome-based education",
+        "student-centric"
+      ],
+      "confidence_triggers": [
+        "UPES teaching philosophy",
+        "what is UPES's education like",
+        "educational approach"
+      ],
+      "related_question_ids": [
+        39,
+        45
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://upesonline.ac.in/about",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "upes_info",
+        "philosophy",
+        "academics"
+      ]
+    },
+    {
+      "id": 55,
+      "question": "Are there any plans for future infrastructure development at UPES?",
+      "answer": "UPES continuously invests in upgrading its infrastructure to provide a world-class learning environment. While specific detailed future plans might evolve, the university's ongoing commitment includes:\n- **Advanced Research Facilities:** Further development of specialized labs and research centers.\n- **Modern Learning Spaces:** Creating more smart classrooms, collaborative zones, and digital studios.\n- **Sustainability Infrastructure:** Investments in green technologies to achieve the Net Zero Campus goal.\n- **Residential and Recreational Facilities:** Enhancing hostel amenities and sports/leisure areas.\n- **Technological Upgrades:** Continuous integration of cutting-edge technology in all academic and administrative processes.\n\nThese developments align with UPES's vision to remain at the forefront of education and research.",
+      "category": "facilities",
+      "keywords": [
+        "infrastructure development",
+        "campus expansion",
+        "future plans",
+        "new facilities",
+        "construction",
+        "upgrades"
+      ],
+      "confidence_triggers": [
+        "UPES future plans",
+        "new buildings UPES",
+        "campus development"
+      ],
+      "related_question_ids": [
+        40
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "low",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/research/research-and-innovation-facilities-institutes-and-centres",
+      "last_verified": "2025-06-09",
+      "tags": [
+        "upes_info",
+        "facilities"
+      ]
+    }
+    ,
+    {
+      "id": 56,
+      "question": "What is the general admission process for undergraduate programs at UPES?",
+      "answer": "The general admission process for undergraduate programs at UPES typically involves several steps:\n1.  **Application:** Prospective students must fill out the online application form available on the UPES official website.\n2.  **Entrance Exam/Merit-Based Admission:** Admission can be through university-specific entrance exams (e.g., UPESEAT for Engineering, ULSAT for Law, UPESDAT for Design) or based on national level entrance exam scores (e.g., JEE Main for B.Tech, CLAT/LSAT for Law, NID/NIFT/UCEED for Design) or board merit.\n3.  **Interview/Counseling:** Shortlisted candidates may undergo a Group Discussion (GD) and/or Personal Interview (PI) round, followed by counseling for seat allocation.\n4.  **Document Verification & Fee Payment:** Successful candidates proceed with document verification and payment of admission fees to confirm their seat.\n\nSpecific eligibility criteria and deadlines vary by program and can be found on the respective program's admission page.",
+      "category": "admissions",
+      "keywords": [
+        "admission process",
+        "undergraduate",
+        "application",
+        "entrance exam",
+        "eligibility",
+        "counseling"
+      ],
+      "confidence_triggers": [
+        "how to apply for UG",
+        "admission procedure",
+        "UPES entrance exams"
+      ],
+      "related_question_ids": [
+        20
+      ],
+      "difficulty_level": "high",
+      "frequency": "high",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/admissions/",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "admissions"
+      ]
+    },
+    {
+      "id": 57,
+      "question": "What are the primary modes of fee payment accepted by UPES?",
+      "answer": "UPES offers several convenient modes for fee payment to students:\n1.  **Online Payment Gateway:** Students can pay fees securely via debit card, credit card, or net banking through the university's online payment portal.\n2.  **Bank Transfer (NEFT/RTGS):** Fees can be paid directly into the University's bank account via NEFT or RTGS. Students are advised to share the transaction reference number with their name, SAP ID, and contact details via email for proper reconciliation.\n3.  **Bank Challan:** For offline payments, a challan can be generated and paid at designated bank branches.\n\nDetailed bank account information and payment links are usually available on the student portal or the university's finance section.",
+      "category": "fee_structure",
+      "keywords": [
+        "fee payment",
+        "payment methods",
+        "online payment",
+        "bank transfer",
+        "NEFT",
+        "RTGS",
+        "challan"
+      ],
+      "confidence_triggers": [
+        "how to pay fees",
+        "fee payment options",
+        "UPES bank details"
+      ],
+      "related_question_ids": [
+        4
+      ],
+      "difficulty_level": "basic",
+      "frequency": "high",
+      "source": "official_website",
+      "source_url": "https://upesonline.ac.in/payment-procedure",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "fees"
+      ]
+    },
+    {
+      "id": 58,
+      "question": "Where can I find the official academic calendar for the current and upcoming academic years at UPES?",
+      "answer": "The official academic calendar for the current and upcoming academic years at UPES is typically published on the university's official website, usually under the 'Academics' or 'Student Space' section. This calendar provides crucial dates for:\n-   Commencement and end of semesters.\n-   Mid-term and end-term examinations.\n-   Semester breaks and holidays.\n-   Registration deadlines.\n-   Result declaration dates.\n\nStudents are advised to regularly check the official UPES portal for the most up-to-date academic calendar to plan their studies and activities.",
+      "category": "academic_policies",
+      "keywords": [
+        "academic calendar",
+        "important dates",
+        "semester dates",
+        "exam schedule",
+        "holiday schedule",
+        "deadlines"
+      ],
+      "confidence_triggers": [
+        "UPES calendar",
+        "academic schedule",
+        "exam dates UPES"
+      ],
+      "related_question_ids": [
+        26
+      ],
+      "difficulty_level": "basic",
+      "frequency": "high",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/academic-calendar/",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "academics",
+        "policies"
+      ]
+    },
+    {
+      "id": 59,
+      "question": "What are the operating hours of the UPES library facilities?",
+      "answer": "UPES provides extensive library facilities across its campuses. The general operating hours for the main libraries are:\n-   **Bidholi Campus Library:**\n    -   Monday to Friday: 8:30 AM to 8:00 PM\n    -   Saturday: 9:00 AM to 5:00 PM\n    -   Issue/Return Timings: Monday-Friday: 8:00 AM to 7:00 PM; Saturday: 9:00 AM to 4:00 PM\n-   **Kandoli Campus Library:**\n    -   Monday to Friday: 8:30 AM to 8:00 PM\n    -   Saturday-Sunday: 9:00 AM to 5:00 PM\n    -   Issue/Return Timings: Monday-Friday: 9:00 AM to 7:00 PM; Saturday: 10:00 AM to 4:00 PM\n\nThese timings may be extended during examination periods. It's always best to check the library's official page for the most current hours.",
+      "category": "campus_facilities",
+      "keywords": [
+        "library hours",
+        "library timings",
+        "campus facilities",
+        "reading room",
+        "library access"
+      ],
+      "confidence_triggers": [
+        "when does library open",
+        "library schedule",
+        "UPES library times"
+      ],
+      "related_question_ids": [
+        30
+      ],
+      "difficulty_level": "basic",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://library.ddn.upes.ac.in/timings.htm",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "facilities"
+      ]
+    },
+    {
+      "id": 60,
+      "question": "How can I contact the student support services or the Dean of Student Welfare (DSW) at UPES?",
+      "answer": "For student support services or to contact the Dean of Student Welfare (DSW) at UPES, students have several options:\n-   **DSW Helpdesk:** Located at the Main Block - Ground Floor.\n-   **Contact Numbers:** 7302662071, 7302662072.\n-   **Email:** upesonline.dswhelpdesk@stu.upes.ac.in (for queries, response within 24 hours).\n-   **Toll-Free Helpline:** 1800-102-8737 (operational Monday to Friday, 9:00 AM to 5:00 PM).\n-   **General Email for Admissions/Enrollments:** enrollments@upes.ac.in\n\nThe DSW department aims to be a one-stop solution for academic and non-academic inquiries, offering various support services, including psychological counseling, medical support, and remedial coaching.",
+      "category": "contact_information",
+      "keywords": [
+        "student support",
+        "DSW",
+        "Dean of Student Welfare",
+        "contact number",
+        "email",
+        "helpline",
+        "counseling"
+      ],
+      "confidence_triggers": [
+        "UPES student help",
+        "contact DSW",
+        "student support email"
+      ],
+      "related_question_ids": [
+        13,
+        27
+      ],
+      "difficulty_level": "basic",
+      "frequency": "high",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/student-space/student-support",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "contact"
+      ]
+    },
+    {
+      "id": 61,
+      "question": "What is UPES's policy on academic integrity and plagiarism?",
+      "answer": "UPES maintains a strict policy on academic integrity and zero tolerance for plagiarism to ensure honesty and fairness in all academic and research activities. The policy mandates:\n-   **Originality:** All submitted work must be original and properly cited.\n-   **Plagiarism Detection Software:** Use of tools like Turnitin and URKUND (provided by MHRD) to check for similarity in student submissions (term papers, assignments, etc.).\n-   **Awareness Drives:** Regular academic integrity awareness (AIA) drives to educate students and faculty.\n-   **Disciplinary Action:** Violations of the policy, including cheating, falsification, or academic dishonesty, will result in disciplinary action as outlined in the university's code of conduct.\n-   **Intellectual Property Rights (IPR):** The university is committed to respecting IPR, requiring proper attribution and safeguarding intellectual property created within its ecosystem.",
+      "category": "academic_policies",
+      "keywords": [
+        "academic integrity",
+        "plagiarism",
+        "cheating",
+        "originality",
+        "IPR",
+        "policy",
+        "Turnitin"
+      ],
+      "confidence_triggers": [
+        "UPES plagiarism rules",
+        "academic honesty policy",
+        "anti-plagiarism"
+      ],
+      "related_question_ids": [
+        51
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/research/integrity",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "academics",
+        "policies"
+      ]
+    },
+    {
+      "id": 62,
+      "question": "What is the typical placement percentage and highest package offered at UPES?",
+      "answer": "UPES has a strong track record of placements, with consistent efforts by its dedicated Career Services Department. While exact figures can vary year to year, here's an overview based on recent data (e.g., 2024-2025 statistics):\n-   **Overall Placement Percentage:** Consistently around 90-95% for various programs.\n-   **Highest Package Offered:** Reportedly around INR 50.09 LPA (Lakhs Per Annum) for certain programs (e.g., School of Computer Science).\n-   **Average Package:** The overall average package is typically around INR 7.02 LPA, with variations across different schools (e.g., School of Computer Science B.Tech at INR 8.41 LPA, MBA at INR 7.69 LPA).\n-   **Top Recruiters:** Over 750+ companies participate in placements, including leading organizations like Microsoft, Deloitte, Amazon, EY, KPMG, and Schlumberger.\n\nThese statistics highlight UPES's commitment to ensuring strong career outcomes for its graduates.",
+      "category": "basic_placement_info",
+      "keywords": [
+        "placement percentage",
+        "highest package",
+        "average package",
+        "placement statistics",
+        "recruiters",
+        "jobs"
+      ],
+      "confidence_triggers": [
+        "UPES placement rate",
+        "highest salary UPES",
+        "UPES job prospects"
+      ],
+      "related_question_ids": [
+        9,
+        21
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "high",
+      "source": "careers360.com",
+      "source_url": "https://www.careers360.com/university/upes-dehradun/placement",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "placements"
+      ]
+    },
+    {
+      "id": 63,
+      "question": "What are the common entrance exams accepted for admission to UPES's various programs?",
+      "answer": "UPES accepts scores from various national-level and its own university-level entrance examinations for admission to its diverse programs:\n-   **For Engineering (B.Tech):** UPESEAT (University's own exam) or JEE Main scores.\n-   **For Management (MBA):** UPESMET (University's own exam) or valid scores from CAT, XAT, MAT, NMAT, or GMAT.\n-   **For Law (B.A. LL.B, B.B.A. LL.B, B.Sc. LL.B, LL.B, LL.M):** ULSAT (University's own exam) or CLAT/LSAT-India scores.\n-   **For Design (B.Des, M.Des):** UPESDAT (University's own exam) or scores from NID/NIFT/UCEED/JEE (for B.Des) followed by Portfolio Presentation & Interview.\n-   **For Pharmacy (B.Pharm):** UPESPAT (University's own exam).\n\nSpecific eligibility criteria, including minimum percentile or marks, apply for each program and entrance exam.",
+      "category": "admissions",
+      "keywords": [
+        "entrance exams",
+        "admission tests",
+        "UPESEAT",
+        "UPESMET",
+        "ULSAT",
+        "UPESDAT",
+        "JEE Main",
+        "CAT",
+        "CLAT"
+      ],
+      "confidence_triggers": [
+        "what exams does UPES accept",
+        "UPES admission test",
+        "entrance exam list"
+      ],
+      "related_question_ids": [
+        56
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "high",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/admissions/admission-alerts/upesmet",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "admissions"
+      ]
+    },
+    {
+      "id": 64,
+      "question": "Are there medical and health facilities available on the UPES campus?",
+      "answer": "Yes, UPES prioritizes the health and well-being of its students and staff by providing comprehensive medical and health facilities on campus:\n-   **Infirmary:** A well-equipped infirmary for first-aid support.\n-   **Medical Staff:** Two male and two female doctors to provide medical consultation.\n-   **Ambulance Service:** A high-tech medical ambulance with emergency management facilities for cases beyond basic infirmary care, facilitating evacuation if needed.\n-   **Health Insurance:** Students are typically covered by a health insurance policy, facilitating cashless hospitalization or reimbursement processes (subject to terms and conditions).\n\nThese facilities ensure immediate medical attention and support on campus.",
+      "category": "campus_facilities",
+      "keywords": [
+        "medical facilities",
+        "health services",
+        "infirmary",
+        "doctor on campus",
+        "ambulance",
+        "health insurance"
+      ],
+      "confidence_triggers": [
+        "UPES medical support",
+        "campus clinic",
+        "health services on campus"
+      ],
+      "related_question_ids": [
+        8
+      ],
+      "difficulty_level": "basic",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/student-space/student-support",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "facilities",
+        "health"
+      ]
+    },
+    {
+      "id": 65,
+      "question": "What is the policy regarding attendance requirements for academic programs at UPES?",
+      "answer": "UPES has a strict attendance policy to ensure consistent student engagement and adherence to academic rigor. While the exact percentage may vary slightly by program and regulatory body (e.g., UGC, Bar Council of India), the general policy states:\n-   **Minimum Attendance:** Students are typically required to maintain a minimum of 75% attendance in each course (lectures, tutorials, practicals) to be eligible to appear for end-term examinations.\n-   **Shortage of Attendance:** Students falling short of the required attendance may be debarred from appearing in examinations and may have to repeat the course or semester.\n-   **Medical/Exceptional Circumstances:** Provisions exist for condonation of attendance in genuine medical or exceptional circumstances, usually requiring proper documentation and approval from the competent authority.\n\nStudents are advised to regularly monitor their attendance and adhere to the university's regulations.",
+      "category": "academic_policies",
+      "keywords": [
+        "attendance policy",
+        "attendance requirements",
+        "minimum attendance",
+        "debarred",
+        "academic rules",
+        "medical leave"
+      ],
+      "confidence_triggers": [
+        "UPES attendance rules",
+        "required attendance",
+        "attendance percentage"
+      ],
+      "related_question_ids": [],
+      "difficulty_level": "intermediate",
+      "frequency": "high",
+      "source": "academic_regulations",
+      "source_url": "https://www.upes.ac.in/academic-regulations/",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "academics",
+        "policies"
+      ]
+    }
+    ,
+    {
+      "id": 66,
+      "question": "What is the detailed admission process for postgraduate programs at UPES?",
+      "answer": "The admission process for postgraduate (PG) programs at UPES varies depending on the specific program (e.g., MBA, M.Tech, LL.M, M.Des). Generally, it includes:\n1.  **Application:** Online application form submission with required documents (transcripts, mark sheets, work experience, etc.).\n2.  **Entrance Exam:** Many PG programs require a valid score from national-level tests (e.g., CAT, XAT, MAT, NMAT, GMAT for MBA) or UPES's own entrance exams (e.g., UPESMET for MBA, UPESDAT for M.Des, ULSAT for LL.M). M.Tech admissions may consider GATE scores.\n3.  **Group Discussion (GD) & Personal Interview (PI):** Shortlisted candidates often undergo a GD and PI round to assess their communication skills, analytical abilities, and program fit.\n4.  **Portfolio Review (for Design programs):** M.Des applicants are typically required to submit a portfolio of their design work and present it during the interview.\n5.  **Document Verification & Fee Payment:** Final admission is confirmed upon successful verification of documents and payment of the prescribed fees.\n\nSpecific dates, eligibility, and selection criteria are program-dependent and available on the UPES website.",
+      "category": "admissions",
+      "keywords": [
+        "postgraduate admission",
+        "PG admission",
+        "MBA admission",
+        "M.Tech admission",
+        "LL.M admission",
+        "M.Des admission",
+        "application process"
+      ],
+      "confidence_triggers": [
+        "how to apply for PG at UPES",
+        "postgraduate application",
+        "MBA entrance exams"
+      ],
+      "related_question_ids": [
+        56,
+        63
+      ],
+      "difficulty_level": "high",
+      "frequency": "high",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/admissions/postgraduate-programs",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "admissions"
+      ]
+    },
+    {
+      "id": 67,
+      "question": "What are the common academic programs offered at UPES and their broad specializations?",
+      "answer": "UPES offers a wide array of academic programs across various disciplines, categorized under its specialized schools. Key programs and their broad specializations include:\n-   **School of Advanced Engineering:** B.Tech, M.Tech, and Ph.D. in Petroleum Engineering, Chemical Engineering, Mechanical Engineering, Electrical Engineering, Civil Engineering, Aerospace Engineering, and Renewable Energy.\n-   **School of Computer Science:** B.Tech, M.Tech, MCA, and Ph.D. in Computer Science with specializations like AI & Machine Learning, Data Science, Cybersecurity, Cloud Computing, Blockchain, IoT, and DevOps.\n-   **School of Business:** BBA, MBA, and Ph.D. in various management specializations, including Oil & Gas, Aviation, Logistics & Supply Chain, Marketing, Finance, HR, Digital Business, and Analytics.\n-   **School of Law:** B.A. LL.B (Hons.), B.B.A. LL.B (Hons.), B.Sc. LL.B (Hons.), LL.B., LL.M., and Ph.D. in areas like Energy Law, Corporate Law, Cyber Law, and Criminal Law.\n-   **School of Design:** B.Des and M.Des in Product Design, Transportation Design, Fashion Design, Graphic Design, and Interior Design.\n-   **School of Health Sciences and Technology:** Programs in Pharmaceutical Sciences, Nutrition, and Public Health.\n-   **School of Liberal Studies and Media:** Programs in Economics, Psychology, Journalism, Literature, and Media Production.\n\nThese programs are designed with industry relevance and future-readiness in mind.",
+      "category": "academic_programs",
+      "keywords": [
+        "academic programs",
+        "courses offered",
+        "specializations",
+        "B.Tech",
+        "MBA",
+        "Law programs",
+        "Design programs"
+      ],
+      "confidence_triggers": [
+        "list of courses at UPES",
+        "UPES specializations",
+        "what degrees does UPES offer"
+      ],
+      "related_question_ids": [
+        41
+      ],
+      "difficulty_level": "high",
+      "frequency": "high",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/programs/",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "academic_programs"
+      ]
+    },
+    {
+      "id": 68,
+      "question": "What is the general refund policy for tuition and other fees at UPES?",
+      "answer": "UPES's refund policy for tuition and other fees adheres to the guidelines set by the University Grants Commission (UGC). The general principles are:\n-   **Withdrawal within Stipulated Time:** If a student withdraws admission within a specific period (as mentioned in the prospectus or admission offer letter), a significant portion of the fees (e.g., 100%, 90%, or 80% depending on the timeline) may be refunded, excluding processing fees.\n-   **Late Withdrawal:** For withdrawals after the stipulated period, a proportionate amount of the fees may be refunded, or no refund may be applicable, especially after the commencement of classes or a certain number of days into the academic session.\n-   **Non-Refundable Fees:** Certain fees, such as admission processing fees, application fees, and examination fees, are typically non-refundable.\n\nStudents are strongly advised to refer to the specific refund policy document for their admission year, usually available on the UPES website or in the admission brochure, as the exact terms and timelines can vary.",
+      "category": "fee_structure",
+      "keywords": [
+        "refund policy",
+        "fee refund",
+        "withdrawal policy",
+        "tuition fees",
+        "cancellation policy"
+      ],
+      "confidence_triggers": [
+        "UPES fee refund",
+        "how to get money back UPES",
+        "admission cancellation refund"
+      ],
+      "related_question_ids": [
+        4,
+        57
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/admissions/refund-policy",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "fees",
+        "policies"
+      ]
+    },
+    {
+      "id": 69,
+      "question": "What are the key residential (hostel) facilities available on UPES campuses?",
+      "answer": "UPES provides well-maintained and comfortable residential facilities (hostels) for both male and female students across its Bidholi and Kandoli campuses. Key features typically include:\n-   **Accommodation Types:** Rooms are usually offered on a triple-sharing basis, with options for air-conditioned and non-air-conditioned rooms.\n-   **Amenities:** Each room is equipped with basic furniture (bed, study table, chair, cupboard). Hostels generally offer Wi-Fi connectivity, common areas, and recreation zones.\n-   **Mess Facilities:** In-house mess services provide nutritious and hygienic meals (breakfast, lunch, dinner, and snacks).\n-   **Security:** 24/7 security with CCTV surveillance and resident wardens/supervisors.\n-   **Recreational Areas:** Access to sports fields, common rooms with entertainment, and sometimes gym facilities.\n-   **Laundry Services:** External laundry services may be available (paid).\n\nSeparate hostels are provided for male and female students to ensure safety and comfort. International students are also accommodated within these facilities.",
+      "category": "campus_facilities",
+      "keywords": [
+        "hostel facilities",
+        "student accommodation",
+        "residential facilities",
+        "mess",
+        "campus housing",
+        "hostel amenities"
+      ],
+      "confidence_triggers": [
+        "UPES hostel details",
+        "campus accommodation",
+        "hostel rooms"
+      ],
+      "related_question_ids": [
+        7,
+        14
+      ],
+      "difficulty_level": "basic",
+      "frequency": "high",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/campus-life/hostel-facilities",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "facilities",
+        "hostel"
+      ]
+    },
+    {
+      "id": 70,
+      "question": "What are the official communication channels and contact details for UPES admissions office?",
+      "answer": "For all admissions-related inquiries at UPES, you can use the following official communication channels and contact details:\n-   **Toll-Free Helpline:** 1800-102-8737 (Operational: 10:00 AM to 7:00 PM, Monday to Friday).\n-   **Email for Enrollments/Admissions:** enrollments@upes.ac.in\n-   **Official Website:** www.upes.ac.in (The admissions section of the website provides detailed program-specific information, application forms, and important dates).\n-   **Physical Campus Addresses:**\n    -   **Bidholi Campus:** P.O. Bidholi Via Premnagar, Dehradun, Uttarakhand - 248007\n    -   **Kandoli Campus:** P.O. Kandoli Via Premnagar, Dehradun, Uttarakhand - 248007\n\nIt is recommended to use the toll-free number or email for prompt responses to admission queries.",
+      "category": "contact_information",
+      "keywords": [
+        "admissions contact",
+        "contact admissions office",
+        "UPES admissions phone number",
+        "admission email",
+        "admissions helpline"
+      ],
+      "confidence_triggers": [
+        "how to contact UPES admissions",
+        "admissions department phone",
+        "UPES contact for new students"
+      ],
+      "related_question_ids": [
+        60
+      ],
+      "difficulty_level": "high",
+      "frequency": "high",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/contact",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "contact",
+        "admissions"
+      ]
+    },
+    {
+      "id": 71,
+      "question": "Does UPES have a specific Code of Conduct for students?",
+      "answer": "Yes, UPES has a well-defined Code of Conduct for students that outlines the expected behavior, responsibilities, and disciplinary guidelines within the university premises and outside. This code typically covers:\n-   **Academic Conduct:** Honesty, integrity, and adherence to anti-plagiarism policies.\n-   **Campus Discipline:** Rules regarding decorum, use of facilities, and maintenance of peace.\n-   **Anti-Ragging Policy:** Strict prohibition of ragging in any form.\n-   **Anti-Discrimination & Sexual Harassment Policies:** Ensuring a safe and respectful environment for all, regardless of gender, caste, creed, or religion.\n-   **IT Usage Policy:** Guidelines for responsible use of university IT resources and social media.\n-   **Dress Code:** Expectations for a smart casual and presentable attire.\n\nStudents are expected to familiarize themselves with and adhere to this code, which is usually available in the student handbook or on the university's official website.",
+      "category": "academic_policies",
+      "keywords": [
+        "student code of conduct",
+        "code of conduct",
+        "discipline policy",
+        "campus rules",
+        "student behavior",
+        "ragging policy"
+      ],
+      "confidence_triggers": [
+        "UPES rules for students",
+        "student behavior policy",
+        "UPES code of conduct"
+      ],
+      "related_question_ids": [
+        13,
+        34,
+        51
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/student-space/student-affairs-section",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "policies",
+        "campus_life"
+      ]
+    },
+    {
+      "id": 72,
+      "question": "What kind of career support is offered to students beyond campus placements?",
+      "answer": "UPES offers comprehensive career support that extends beyond just on-campus placements, focusing on holistic employability development. This includes:\n-   **EDGE (Enhanced Development Growth & Enrichment) Program:** A training vertical focusing on work readiness workshops, personality profiling, competency mapping, and soft skills development.\n-   **Employability Bootcamps:** Workshops on resume building, cover letters, interview skills, and mock interview practice.\n-   **Career Counseling:** Personal and group counseling sessions with professionals to help students identify strengths, explore career paths, and set goals.\n-   **Alumni Connect:** Facilitating interactions with alumni for mentorship, networking, and industry insights.\n-   **Competitive Exam Preparation:** Support and resources for students aspiring for competitive examinations.\n-   **Entrepreneurship Support:** For students interested in startups, the 'Runway' incubator offers boot camps, incubation cohorts, and potential funding.\n-   **Lifetime Placement Support:** UPES claims to be the first university to offer lifetime career opportunities to its alumni, including job transition assistance.\n\nThese initiatives aim to enhance students' overall career adaptability and readiness for diverse professional opportunities.",
+      "category": "basic_placement_info",
+      "keywords": [
+        "career support",
+        "employability",
+        "career counseling",
+        "soft skills",
+        "resume building",
+        "interview preparation",
+        "entrepreneurship support"
+      ],
+      "confidence_triggers": [
+        "career services UPES",
+        "job support after graduation",
+        "UPES career guidance"
+      ],
+      "related_question_ids": [
+        9,
+        35
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/capability-enhancement-and-development-schemes",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "placements",
+        "career"
+      ]
+    },
+    {
+      "id": 73,
+      "question": "What is UPES's policy for re-evaluation or re-totaling of examination answer sheets?",
+      "answer": "UPES has a clear policy for re-evaluation or re-totaling of examination answer sheets to ensure fairness and transparency in assessment. Generally, the process involves:\n-   **Application:** Students must apply for re-evaluation/re-totaling within a stipulated timeframe after the declaration of results, usually by filling out a prescribed form and paying a nominal fee per subject.\n-   **Re-totaling:** This involves checking if all answers have been evaluated and if the marks have been correctly totaled.\n-   **Re-evaluation:** This involves a re-assessment of the answer sheet by a different examiner to check for any errors in grading or missed points. This is typically done only after re-totaling.\n-   **Decision & Communication:** The outcome of the re-evaluation/re-totaling is communicated to the student within a specified period.\n-   **Fee Adjustment:** If there is a change in marks that leads to a passing grade or a significant increase, the re-evaluation fee might be refunded.\n\nSpecific dates and detailed procedures are usually available on the examination section of the UPES student portal or academic policies document.",
+      "category": "academic_policies",
+      "keywords": [
+        "re-evaluation",
+        "re-totaling",
+        "examination policy",
+        "answer sheet review",
+        "marks appeal",
+        "grievance"
+      ],
+      "confidence_triggers": [
+        "UPES re-evaluation policy",
+        "how to recheck exam papers",
+        "exam result appeal"
+      ],
+      "related_question_ids": [
+        27
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "medium",
+      "source": "academic_regulations",
+      "source_url": "https://upesonline.ac.in/grievance-redressal",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "academics",
+        "policies"
+      ]
+    },
+    {
+      "id": 74,
+      "question": "Are there opportunities for part-time jobs or internships for students during their studies at UPES?",
+      "answer": "While UPES primarily focuses on full-time academic engagement, opportunities for internships and, in some cases, part-time work, are available and encouraged, especially as students progress through their programs:\n-   **Mandatory Internships:** Many academic programs have mandatory summer or semester-long internships integrated into their curriculum, facilitated by the Career Services Department and industry collaborations.\n-   **Live Projects:** Students often get opportunities to work on live industry projects within the university or with partner companies.\n-   **On-Campus Part-Time Work:** Limited opportunities for part-time work might exist on campus, such as assisting in labs, libraries, or administrative departments, based on university needs and student eligibility.\n-   **External Internships/Part-Time Work:** Students are also encouraged to seek relevant internships or part-time work opportunities outside the university to gain practical experience, provided it does not interfere with their academic commitments and attendance requirements.\n\nThe Career Services Department provides guidance and support for these opportunities.",
+      "category": "academic_programs",
+      "keywords": [
+        "part-time jobs",
+        "internships",
+        "student employment",
+        "work opportunities",
+        "practical training",
+        "live projects"
+      ],
+      "confidence_triggers": [
+        "part-time work for UPES students",
+        "internship opportunities UPES",
+        "can students work part-time"
+      ],
+      "related_question_ids": [
+        21,
+        72
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/career-services/",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "academic_programs",
+        "placements"
+      ]
+    },
+    {
+      "id": 75,
+      "question": "How does UPES support students with academic difficulties or those needing remedial assistance?",
+      "answer": "UPES is committed to supporting all students, including those facing academic difficulties. The university implements several programs and mechanisms for remedial assistance:\n-   **Remedial Coaching:** Regularly planned and organized remedial classes for students whose performance is below the mark (e.g., less than 40% in Mid-Term Examinations) to help them fill learning gaps and improve performance.\n-   **Faculty Mentors:** Students facing academic and learning difficulties are guided and supported by dedicated faculty mentors who provide one-on-one assistance and advice.\n-   **Counseling Services:** Full-time psychological counselors address academic stress, learning difficulties, and provide holistic support.\n-   **Student Engagement and Experience (SEE) Department:** This team works to engage students and provide support through various initiatives.\n-   **Peer Learning/Tutoring:** While not explicitly stated as a formal program, peer-to-peer learning is often encouraged within academic departments.\n\nThese support systems aim to ensure that all students have the opportunity to succeed academically and overcome challenges.",
+      "category": "academic_policies",
+      "keywords": [
+        "academic support",
+        "remedial classes",
+        "weak students",
+        "academic assistance",
+        "counseling",
+        "mentorship"
+      ],
+      "confidence_triggers": [
+        "help for struggling students UPES",
+        "remedial coaching UPES",
+        "academic help services"
+      ],
+      "related_question_ids": [
+        13,
+        60
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/student-space/student-support",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "academics",
+        "policies",
+        "student_support"
+      ]
+    },
+    {
+      "id": 76,
+      "question": "What is the process for applying for scholarships at UPES?",
+      "answer": "UPES offers a variety of scholarships to meritorious and deserving students. The application process generally involves:\n1.  **Eligibility Check:** Reviewing the scholarship criteria (academic performance, entrance exam scores, financial need, domicile, etc.) for various scholarships (e.g., academic scholarships, sports scholarships, domicile-based scholarships, special category scholarships).\n2.  **Application Form:** Filling out the dedicated scholarship application form, usually available on the UPES website or the student portal.\n3.  **Document Submission:** Providing all necessary supporting documents, such as mark sheets, income certificates, caste certificates (if applicable), and any other relevant proofs.\n4.  **Selection Process:** Scholarship awards are typically based on merit, entrance exam scores, or financial need, followed by a selection committee's review. Some scholarships may require an interview.\n5.  **Renewal Criteria:** Students need to maintain specific academic performance to retain scholarships in subsequent years.\n\nIt's crucial to check the specific scholarship guidelines and application deadlines on the official UPES scholarship page.",
+      "category": "admissions",
+      "keywords": [
+        "scholarships",
+        "financial aid",
+        "fee waiver",
+        "scholarship application",
+        "eligibility",
+        "merit scholarship"
+      ],
+      "confidence_triggers": [
+        "UPES scholarships",
+        "how to apply for financial aid",
+        "scholarship criteria"
+      ],
+      "related_question_ids": [
+        4
+      ],
+      "difficulty_level": "high",
+      "frequency": "high",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/admissions/scholarships/",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "admissions",
+        "fees"
+      ]
+    },
+    {
+      "id": 77,
+      "question": "Are there any provisions for short-term courses or executive education programs at UPES?",
+      "answer": "Yes, in addition to its full-time degree programs, UPES offers various short-term courses, certification programs, and executive education initiatives designed for working professionals and individuals seeking specialized skills. These programs often include:\n-   **Executive MBA/PGDM:** Tailored for experienced professionals.\n-   **Professional Certifications:** Industry-specific certifications in areas like Data Science, Cybersecurity, AI/ML, Project Management, and specialized legal or design fields.\n-   **Workshops & Training Programs:** Short, intensive courses focused on specific skills or emerging technologies.\n-   **Customized Corporate Training:** Programs designed to meet the specific training needs of corporate clients.\n\nThese programs are often delivered in blended or online formats to provide flexibility for participants. Details are usually available under the 'Executive Education' or 'Professional Programs' section of the UPES website.",
+      "category": "academic_programs",
+      "keywords": [
+        "short-term courses",
+        "executive education",
+        "certificate programs",
+        "professional development",
+        "online courses",
+        "skill enhancement"
+      ],
+      "confidence_triggers": [
+        "UPES short courses",
+        "executive programs",
+        "professional certifications"
+      ],
+      "related_question_ids": [
+        25
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/executive-education/",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "academic_programs",
+        "executive_education"
+      ]
+    },
+    {
+      "id": 78,
+      "question": "What is the typical examination pattern and grading system at UPES?",
+      "answer": "UPES follows a structured examination pattern and a comprehensive grading system to evaluate student performance:\n-   **Continuous Evaluation:** Assessment is typically continuous, comprising:\n    -   **Mid-Term Examinations (MSE):** Usually conducted mid-semester.\n    -   **Internal Assessments:** Include quizzes, assignments, presentations, case studies, projects, and lab work.\n    -   **End-Term Examinations (ESE):** Comprehensive exams conducted at the end of each semester.\n-   **Weightage:** The weightage for internal assessments, mid-term, and end-term examinations is pre-defined for each course and communicated to students.\n-   **Grading System:** UPES uses a letter grading system (e.g., O, A+, A, B+, B, C, D, P for Pass, F for Fail) with corresponding grade points (e.g., O=10, A+=9, etc.).\n-   **SGPA/CGPA:** Semester Grade Point Average (SGPA) and Cumulative Grade Point Average (CGPA) are calculated based on the grade points and credits of the courses.\n\nDetailed academic regulations outlining the examination and grading policies are available on the university's academic portal.",
+      "category": "academic_policies",
+      "keywords": [
+        "examination pattern",
+        "grading system",
+        "assessment",
+        "mid-term exams",
+        "end-term exams",
+        "SGPA",
+        "CGPA",
+        "grade points"
+      ],
+      "confidence_triggers": [
+        "UPES exam format",
+        "grading at UPES",
+        "how exams are conducted"
+      ],
+      "related_question_ids": [
+        19,
+        73
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "high",
+      "source": "academic_regulations",
+      "source_url": "https://www.upes.ac.in/academic-regulations/",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "academics",
+        "policies"
+      ]
+    },
+    {
+      "id": 79,
+      "question": "Are there dedicated innovation and incubation centers at UPES for student startups?",
+      "answer": "Yes, UPES actively fosters an entrepreneurial spirit among its students through dedicated innovation and incubation centers. The primary hub for this is:\n-   **'Runway' - The UPES Innovation & Incubation Centre:** This center provides comprehensive support to aspiring student entrepreneurs, including:\n    -   **Mentorship:** Guidance from industry experts and experienced entrepreneurs.\n    -   **Seed Funding:** Opportunities to apply for initial capital to develop their ideas.\n    -   **Co-working Spaces:** Access to dedicated workspaces and necessary infrastructure.\n    -   **Workshops & Training:** Programs on business plan development, legal aspects, marketing, and fundraising.\n    -   **Networking Opportunities:** Connecting startups with investors, industry leaders, and potential partners.\n\n'Runway' aims to transform innovative ideas into viable businesses and contributes to the startup ecosystem.",
+      "category": "campus_facilities",
+      "keywords": [
+        "innovation center",
+        "incubation center",
+        "startups",
+        "entrepreneurship",
+        "funding",
+        "mentorship"
+      ],
+      "confidence_triggers": [
+        "UPES startup support",
+        "innovation hub",
+        "student entrepreneurship"
+      ],
+      "related_question_ids": [
+        18,
+        72
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/research/runway-innovation-incubation-centre",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "facilities",
+        "research",
+        "innovation"
+      ]
+    },
+    {
+      "id": 80,
+      "question": "What is the contact information for the Office of the Registrar at UPES?",
+      "answer": "The Office of the Registrar at UPES is responsible for academic records, regulations, and various administrative functions. While direct contact numbers might change, the best way to reach them for official queries is through:\n-   **General University Contact:** Using the main university contact details as a starting point if a direct registrar's email isn't readily available.\n-   **Official Website:** The 'Contact Us' or 'Administration' section of the UPES website often lists direct departmental contacts.\n-   **Email:** For general administrative or academic record queries, emails are often routed through a central system. You can also try searching the official website for a specific Registrar's office email address.\n\nFor specific document requests like transcripts, students typically follow procedures outlined on the relevant student service pages or the Registrar's section of the website.",
+      "category": "contact_information",
+      "keywords": [
+        "registrar office",
+        "contact registrar",
+        "academic records",
+        "university administration",
+        "official contact"
+      ],
+      "confidence_triggers": [
+        "how to contact registrar",
+        "UPES administrative office",
+        "registrar's email"
+      ],
+      "related_question_ids": [
+        16,
+        70
+      ],
+      "difficulty_level": "basic",
+      "frequency": "low",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/contact",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "contact"
+      ]
+    },
+    {
+      "id": 81,
+      "question": "What are the common regulations regarding student leave and holidays at UPES?",
+      "answer": "UPES has specific regulations regarding student leave and holidays to ensure academic continuity and discipline:\n-   **Academic Calendar:** The university's academic calendar clearly outlines all scheduled holidays, semester breaks, and examination periods.\n-   **Attendance Policy:** Leave applications are closely tied to the attendance policy (typically 75% minimum attendance required). Unauthorized or excessive leave can lead to debarment from exams.\n-   **Leave Application Process:** Students must apply for leave in advance through the designated university portal or by submitting a written application to their respective department head/faculty advisor.\n-   **Medical Leave:** Medical leave requires supporting medical certificates and should be submitted promptly.\n-   **Emergency Leave:** Provisions exist for emergency leave in genuine unforeseen circumstances, but proper intimation and documentation are required.\n-   **No Academic Loss:** Students are responsible for catching up on any missed coursework due to leave.\n\nThese regulations are detailed in the student handbook and academic policies document.",
+      "category": "academic_policies",
+      "keywords": [
+        "student leave",
+        "holidays",
+        "leave policy",
+        "attendance",
+        "medical leave",
+        "academic calendar"
+      ],
+      "confidence_triggers": [
+        "UPES leave rules",
+        "holiday schedule UPES",
+        "student time off policy"
+      ],
+      "related_question_ids": [
+        13,
+        58
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "medium",
+      "source": "academic_regulations",
+      "source_url": "https://www.upes.ac.in/academic-calendar/",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "policies",
+        "campus_life"
+      ]
+    },
+    {
+      "id": 82,
+      "question": "Does UPES provide a dedicated career services department for placements and internships?",
+      "answer": "Yes, UPES has a highly active and dedicated **Career Services Department** (CSD) that plays a pivotal role in facilitating placements and internships for its students. The CSD provides comprehensive support, including:\n-   **Pre-Placement Training:** Workshops on resume writing, interview skills, group discussions, and aptitude tests.\n-   **Industry Connect:** Maintaining strong relationships with over 750+ recruiting companies for diverse opportunities.\n-   **Internship Facilitation:** Assisting students in securing mandatory and voluntary internships.\n-   **On-Campus Recruitment Drives:** Organizing recruitment drives and inviting companies for final placements.\n-   **Career Counseling:** Guiding students on career choices and industry trends.\n-   **Alumni Mentorship:** Leveraging the alumni network for mentorship and job referrals.\n\nThe CSD's efforts are a key factor in UPES's high placement rates and strong industry reputation.",
+      "category": "basic_placement_info",
+      "keywords": [
+        "career services",
+        "placement department",
+        "internship support",
+        "placement cell",
+        "training & placement"
+      ],
+      "confidence_triggers": [
+        "UPES placement team",
+        "career support services",
+        "internship and job help"
+      ],
+      "related_question_ids": [
+        9,
+        21,
+        62
+      ],
+      "difficulty_level": "high",
+      "frequency": "high",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/career-services/",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "placements"
+      ]
+    },
+    {
+      "id": 83,
+      "question": "What kind of IT and computing infrastructure is available for students at UPES?",
+      "answer": "UPES provides robust IT and computing infrastructure to support academic and research activities for students:\n-   **Computer Labs:** Well-equipped computer labs with modern hardware and software, including specialized software for engineering, design, law, and business programs.\n-   **High-Speed Wi-Fi:** Campus-wide high-speed Wi-Fi connectivity in academic blocks, hostels, and common areas.\n-   **Digital Library:** Access to a vast collection of e-books, online journals, databases, and research platforms.\n-   **Learning Management System (LMS):** A dedicated online platform (e.g., Blackboard or Moodle based) for course materials, assignments, announcements, and online interactions.\n-   **Cloud-Based Resources:** Access to cloud computing resources for specific programs like AI/ML and data science.\n-   **IT Support:** Dedicated IT support staff to assist students with technical issues and network connectivity.\n\nThis infrastructure ensures that students have the necessary tools and resources for their academic pursuits.",
+      "category": "campus_facilities",
+      "keywords": [
+        "IT infrastructure",
+        "computer labs",
+        "Wi-Fi",
+        "internet access",
+        "digital resources",
+        "LMS",
+        "computing facilities"
+      ],
+      "confidence_triggers": [
+        "UPES computer facilities",
+        "campus internet access",
+        "IT support for students"
+      ],
+      "related_question_ids": [
+        30
+      ],
+      "difficulty_level": "basic",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/campus-life/facilities",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "facilities",
+        "IT"
+      ]
+    },
+    {
+      "id": 84,
+      "question": "What is the estimated total cost of attendance (including tuition, hostel, and other fees) for a B.Tech program at UPES?",
+      "answer": "The estimated total cost of attendance for a B.Tech program at UPES includes tuition fees, hostel fees, and other charges. These figures are subject to change and vary by specialization and admission year. Here's a general breakdown (as of recent data, but always check official prospectus for current year):\n-   **Tuition Fees:** Can range from approximately INR 3.5 Lakhs to 5.5 Lakhs per annum, depending on the B.Tech specialization (e.g., Computer Science specializations might be on the higher end).\n-   **Hostel Fees:** Approximately INR 1.70 Lakhs to 2.2 Lakhs per annum (including mess charges), depending on AC/Non-AC rooms and campus.\n-   **Other Charges:** This includes examination fees, university enrollment fees, security deposits (refundable), medical insurance, and potential miscellaneous charges, which can amount to an additional INR 50,000 to 1 Lakh per annum.\n\n**Total Estimated Cost (per annum):** Roughly INR 5.70 Lakhs to 8.70 Lakhs per annum. This does not include personal expenses. It is crucial to refer to the official UPES fee structure on their website for the precise and most up-to-date figures for the specific program and admission year.",
+      "category": "fee_structure",
+      "keywords": [
+        "cost of attendance",
+        "B.Tech fees",
+        "tuition fees",
+        "hostel fees",
+        "total cost",
+        "fee breakdown",
+        "expenses"
+      ],
+      "confidence_triggers": [
+        "how much does UPES B.Tech cost",
+        "UPES fee structure for engineering",
+        "total fees for B.Tech"
+      ],
+      "related_question_ids": [
+        4,
+        57
+      ],
+      "difficulty_level": "high",
+      "frequency": "high",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/admissions/fee-structure/",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "fees"
+      ]
+    },
+    {
+      "id": 85,
+      "question": "What are the common eligibility criteria for undergraduate B.Tech programs at UPES?",
+      "answer": "The common eligibility criteria for undergraduate B.Tech programs at UPES typically include:\n-   **Academic Qualification:** A minimum of 50% marks in 10th and 12th class with Physics, Chemistry, and Mathematics (PCM) as main subjects.\n-   **Entrance Exam:** Admission is primarily through UPESEAT (UPES Engineering Aptitude Test) or valid JEE Main scores. Some specializations might have higher percentage requirements or specific subject prerequisites.\n-   **Age Limit:** Generally, candidates should not be more than a specific age (e.g., 20 or 21 years) at the time of admission, though this can vary and should be checked in the latest prospectus.\n\nSpecific B.Tech specializations might have slightly varied percentage requirements or additional criteria. It's essential to check the eligibility for the desired B.Tech program on the official UPES admissions page.",
+      "category": "admissions",
+      "keywords": [
+        "B.Tech eligibility",
+        "engineering admission criteria",
+        "PCM requirements",
+        "JEE Main",
+        "UPESEAT",
+        "academic requirements"
+      ],
+      "confidence_triggers": [
+        "B.Tech eligibility UPES",
+        "requirements for engineering at UPES",
+        "what marks needed for B.Tech UPES"
+      ],
+      "related_question_ids": [
+        56,
+        63
+      ],
+      "difficulty_level": "high",
+      "frequency": "high",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/admissions/btech-eligibility/",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "admissions",
+        "academic_programs"
+      ]
+    },
+    {
+      "id": 86,
+      "question": "What is the procedure for obtaining a duplicate Mark Sheet or Degree Certificate from UPES?",
+      "answer": "To obtain a duplicate Mark Sheet or Degree Certificate from UPES, students/alumni generally need to follow these steps:\n1.  **Application Form:** Obtain the prescribed application form for duplicate documents from the Examination Department or download it from the university's official website.\n2.  **Affidavit:** Submit a notarized affidavit stating the loss or damage of the original document, including details like the program, enrollment number, and reason for seeking a duplicate.\n3.  **FIR/Police Report:** For lost documents, a copy of the First Information Report (FIR) lodged with the police is often required.\n4.  **Fee Payment:** Pay the prescribed fee for issuing duplicate documents. The fee varies for mark sheets and degree certificates.\n5.  **Document Submission:** Submit the filled form along with all required documents and payment receipt to the Examination Department.\n\nThe processing time typically ranges from a few weeks to a couple of months. It's advisable to check the latest specific requirements and fees on the UPES examination or student services portal.",
+      "category": "academic_policies",
+      "keywords": [
+        "duplicate mark sheet",
+        "duplicate degree",
+        "lost certificate",
+        "document reissuance",
+        "transcript",
+        "affidavit",
+        "FIR"
+      ],
+      "confidence_triggers": [
+        "how to get duplicate marksheet",
+        "lost degree certificate UPES",
+        "duplicate academic documents"
+      ],
+      "related_question_ids": [
+        16
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "low",
+      "source": "examination_department",
+      "source_url": "https://www.upes.ac.in/academic-regulations/",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "policies",
+        "documents"
+      ]
+    },
+    {
+      "id": 87,
+      "question": "Are there specialized labs and workshops available for practical learning across various programs at UPES?",
+      "answer": "Yes, UPES places a strong emphasis on practical, hands-on learning and provides a wide array of specialized labs and workshops across its various schools and programs. These include:\n-   **Engineering Labs:** State-of-the-art labs for Petroleum, Mechanical, Electrical, Civil, and Aerospace Engineering, including drilling simulators, advanced manufacturing labs, robotics labs, and renewable energy labs.\n-   **Computer Science Labs:** Advanced computing labs for AI & ML, Data Science, Cybersecurity, Cloud Computing, and IoT, equipped with industry-standard software and hardware.\n-   **Design Studios:** Fully equipped design studios for Product Design, Transportation Design, Fashion Design, and Graphic Design, including sketching zones, prototyping labs, and material workshops.\n-   **Law Moot Courts:** Dedicated moot courtrooms for law students to practice advocacy skills.\n-   **Media Labs:** Studios and equipment for journalism and media production programs.\n-   **Science Labs:** Well-equipped chemistry, physics, and biology labs for foundational and specialized courses.\n\nThese facilities ensure that students gain practical experience relevant to their chosen fields.",
+      "category": "campus_facilities",
+      "keywords": [
+        "labs",
+        "workshops",
+        "practical learning",
+        "engineering labs",
+        "computer labs",
+        "design studios",
+        "moot court",
+        "infrastructure"
+      ],
+      "confidence_triggers": [
+        "UPES lab facilities",
+        "practical training at UPES",
+        "specialized labs"
+      ],
+      "related_question_ids": [
+        83
+      ],
+      "difficulty_level": "basic",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/campus-life/facilities",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "facilities",
+        "academics"
+      ]
+    },
+    {
+      "id": 88,
+      "question": "Does UPES offer Ph.D. programs, and what is the admission process for them?",
+      "answer": "Yes, UPES offers Doctor of Philosophy (Ph.D.) programs across various disciplines within its Schools of Engineering, Computer Science, Business, Law, Design, and Liberal Studies. The admission process for Ph.D. typically involves:\n1.  **Application:** Submission of an online application form with research proposal/synopsis, academic transcripts, and other supporting documents.\n2.  **Eligibility Criteria:** A Master's degree in a relevant discipline with a minimum specified percentage/CGPA.\n3.  **Entrance Test (UPES Ph.D. Entrance Test):** Candidates are required to appear for UPES's Ph.D. Entrance Test, which assesses research aptitude and subject knowledge. UGC-NET (including JRF)/UGC-CSIR NET (including JRF)/SLET/GATE/teacher fellowship holders may be exempt from the entrance test.\n4.  **Research Proposal Presentation & Interview:** Shortlisted candidates present their research proposal to a Research Advisory Committee (RAC) and undergo a personal interview to assess their research capabilities and motivation.\n5.  **Admission Offer:** Final admission is based on the performance in the entrance test (if applicable), research proposal, and interview.\n\nDetailed guidelines, research areas, and admission dates are released periodically by the UPES Research & Innovation Unit.",
+      "category": "academic_programs",
+      "keywords": [
+        "Ph.D. programs",
+        "doctoral programs",
+        "doctorate admission",
+        "research programs",
+        "UPES Ph.D. entrance test",
+        "research proposal"
+      ],
+      "confidence_triggers": [
+        "UPES Ph.D. admission",
+        "how to apply for doctorate at UPES",
+        "Ph.D. eligibility"
+      ],
+      "related_question_ids": [
+        18
+      ],
+      "difficulty_level": "high",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/research/phd-programs",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "academic_programs",
+        "admissions",
+        "research"
+      ]
+    },
+    {
+      "id": 89,
+      "question": "What is the general duration and structure of undergraduate programs at UPES?",
+      "answer": "The general duration and structure of undergraduate programs at UPES vary by discipline:\n-   **B.Tech (Bachelor of Technology):** Typically a 4-year (8-semester) program.\n-   **BBA (Bachelor of Business Administration):** Generally a 3-year (6-semester) program.\n-   **B.Des (Bachelor of Design):** Usually a 4-year (8-semester) program.\n-   **Integrated Law Programs (e.g., B.A. LL.B (Hons.), B.B.A. LL.B (Hons.), B.Sc. LL.B (Hons.)):** These are 5-year (10-semester) integrated programs.\n-   **B.Sc. (Bachelor of Science):** Typically 3-year (6-semester) programs.\n\nThe structure generally includes core courses, elective courses (major/minor specializations), laboratory work, projects, and mandatory internships. The curriculum is often outcome-based and incorporates industry-relevant modules.",
+      "category": "academic_programs",
+      "keywords": [
+        "undergraduate duration",
+        "program structure",
+        "B.Tech duration",
+        "BBA duration",
+        "Law program length",
+        "semester system"
+      ],
+      "confidence_triggers": [
+        "how long are UPES UG courses",
+        "UPES program structure",
+        "bachelor degree duration"
+      ],
+      "related_question_ids": [
+        67
+      ],
+      "difficulty_level": "basic",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/programs/undergraduate-programs",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "academic_programs"
+      ]
+    },
+    {
+      "id": 90,
+      "question": "Does UPES provide facilities for sports and recreation on campus?",
+      "answer": "Yes, UPES offers extensive facilities for sports and recreation to promote the physical well-being and holistic development of its students. These include:\n-   **Outdoor Sports:** Cricket ground, football ground, basketball courts, volleyball courts, badminton courts, and a running track.\n-   **Indoor Sports:** Facilities for table tennis, carrom, chess, and a well-equipped gymnasium/fitness center.\n-   **Sports Clubs:** Various student-led sports clubs encourage participation in inter-university and intra-university competitions.\n-   **Annual Sports Fests:** Organization of regular sports events and tournaments.\n-   **Dedicated Coaches:** Access to professional coaches for various sports.\n\nThese facilities ensure students have ample opportunities to engage in physical activities and recreational pursuits.",
+      "category": "campus_facilities",
+      "keywords": [
+        "sports facilities",
+        "recreation",
+        "gym",
+        "playground",
+        "sports clubs",
+        "fitness center",
+        "campus sports"
+      ],
+      "confidence_triggers": [
+        "UPES sports facilities",
+        "gym at UPES",
+        "sports available on campus"
+      ],
+      "related_question_ids": [
+        11
+      ],
+      "difficulty_level": "basic",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/campus-life/sports-facilities",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "facilities",
+        "campus_life"
+      ]
+    },
+    {
+      "id": 91,
+      "question": "What is the typical academic credit system followed at UPES?",
+      "answer": "UPES follows a Credit Based System (CBS) for its academic programs, aligning with national and international educational standards. Key aspects of this system include:\n-   **Credit Hours:** Each course is assigned a certain number of credits, reflecting the approximate amount of learning time (lectures, tutorials, practicals, self-study) expected from a student.\n-   **Credit Requirements:** Students must accumulate a minimum number of credits to successfully complete their degree program.\n-   **Electives & Core Courses:** Programs typically have a combination of core courses (mandatory) and elective courses (chosen by students).\n-   **SGPA & CGPA:** Performance in courses is measured by grade points, which contribute to the Semester Grade Point Average (SGPA) and Cumulative Grade Point Average (CGPA) calculated at the end of each semester/program.\n-   **Outcome-Based Education:** The credit system is integrated with an Outcome-Based Education (OBE) framework, where credits are tied to the achievement of specific learning outcomes.\n\nThis system provides flexibility in course selection and enables easy transfer of credits in specific scenarios.",
+      "category": "academic_policies",
+      "keywords": [
+        "credit system",
+        "academic credits",
+        "credit hours",
+        "SGPA",
+        "CGPA",
+        "grading system",
+        "curriculum structure"
+      ],
+      "confidence_triggers": [
+        "UPES credit system",
+        "how credits work at UPES",
+        "academic credit structure"
+      ],
+      "related_question_ids": [
+        78
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "low",
+      "source": "academic_regulations",
+      "source_url": "https://www.upes.ac.in/academic-regulations/",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "academics",
+        "policies"
+      ]
+    },
+    {
+      "id": 92,
+      "question": "How does UPES facilitate communication between students and faculty/administration?",
+      "answer": "UPES facilitates effective communication between students and faculty/administration through multiple channels to ensure a supportive and responsive environment:\n-   **Learning Management System (LMS):** Online platforms (e.g., Blackboard) where faculty post course materials, announcements, grades, and communicate with students.\n-   **Email:** Official university email accounts for all students and faculty for formal communication.\n-   **Faculty Advisors/Mentors:** Each student is typically assigned a faculty advisor for academic guidance and to address general concerns.\n-   **Dean of Student Welfare (DSW) Office:** A dedicated office and helpdesk for student grievances, support, and liaison with administration.\n-   **Student Councils & Committees:** Elected student representatives serve as a bridge between the student body and the university administration.\n-   **Departmental Coordinators:** Specific faculty members designated for student queries within each department.\n-   **Open Door Policy:** Many faculty and administrative offices maintain an open-door policy during office hours for direct interaction.\n\nThese channels ensure that student queries and feedback are addressed efficiently.",
+      "category": "campus_facilities",
+      "keywords": [
+        "communication channels",
+        "student-faculty interaction",
+        "LMS",
+        "email communication",
+        "faculty advisors",
+        "DSW",
+        "student support"
+      ],
+      "confidence_triggers": [
+        "how to talk to professors UPES",
+        "student communication at UPES",
+        "UPES student portal"
+      ],
+      "related_question_ids": [
+        60,
+        83
+      ],
+      "difficulty_level": "basic",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/student-space/student-support",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "campus_life",
+        "facilities"
+      ]
+    },
+    {
+      "id": 93,
+      "question": "What is the policy regarding academic probation or unsatisfactory academic progress at UPES?",
+      "answer": "UPES has a policy on academic probation or unsatisfactory academic progress to ensure students maintain required academic standards. While specific thresholds may vary, generally:\n-   **Minimum CGPA/SGPA:** Students are required to maintain a minimum Cumulative Grade Point Average (CGPA) or Semester Grade Point Average (SGPA) to remain in good academic standing (e.g., a CGPA of 5.0 or 6.0 on a 10-point scale).\n-   **Academic Probation:** Students whose SGPA or CGPA falls below the specified minimum for a semester or two may be placed on academic probation.\n-   **Consequences of Probation:** Probation often comes with conditions, such as limits on course load, mandatory academic counseling, or participation in remedial programs.\n-   **Dismissal:** Repeated failure to meet the minimum academic standards or clear probation within a stipulated timeframe can lead to academic dismissal from the program or university.\n\nThe detailed rules are outlined in the academic regulations and are communicated to students.",
+      "category": "academic_policies",
+      "keywords": [
+        "academic probation",
+        "unsatisfactory progress",
+        "minimum CGPA",
+        "academic dismissal",
+        "academic standing",
+        "probation policy"
+      ],
+      "confidence_triggers": [
+        "what happens if grades are low UPES",
+        "academic performance policy",
+        "failing grades UPES"
+      ],
+      "related_question_ids": [
+        13,
+        78
+      ],
+      "difficulty_level": "intermediate",
+      "frequency": "low",
+      "source": "academic_regulations",
+      "source_url": "https://www.upes.ac.in/academic-regulations/",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "policies",
+        "academics"
+      ]
+    },
+    {
+      "id": 94,
+      "question": "How does UPES ensure gender equality and a safe environment for female students?",
+      "answer": "UPES is committed to ensuring gender equality and providing a safe and supportive environment for all its students, especially female students. Key measures include:\n-   **Anti-Sexual Harassment Cell:** A dedicated Internal Complaints Committee (ICC) to address and resolve complaints of sexual harassment as per UGC guidelines and POSH Act.\n-   **Women's Grievance Redressal Cell:** A specific body to address grievances of female students and staff.\n-   **24/7 Campus Security:** Enhanced security measures, including CCTV surveillance, trained security personnel, and regulated entry/exit, with particular attention to hostel security for female students.\n-   **Counseling Services:** Confidential psychological counseling for any personal or emotional issues.\n-   **Awareness Programs:** Regular workshops and awareness sessions on gender sensitivity, safety, and rights.\n-   **Separate Hostel Facilities:** Dedicated and secure hostel accommodation for female students with wardens.\n\nThese initiatives aim to create an inclusive, respectful, and secure campus for all.",
+      "category": "campus_facilities",
+      "keywords": [
+        "gender equality",
+        "female student safety",
+        "anti-sexual harassment",
+        "women's cell",
+        "campus security",
+        "hostel safety"
+      ],
+      "confidence_triggers": [
+        "safety for girls UPES",
+        "UPES women's safety",
+        "gender policy UPES"
+      ],
+      "related_question_ids": [
+        24,
+        69
+      ],
+      "difficulty_level": "basic",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/student-space/student-affairs-section/",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "campus_life",
+        "policies",
+        "safety"
+      ]
+    },
+    {
+      "id": 95,
+      "question": "What is the typical class size for undergraduate programs at UPES?",
+      "answer": "The typical class size for undergraduate programs at UPES is managed to ensure effective learning and student-faculty interaction. While it can vary based on the program, specialization, and course type (e.g., core lecture vs. specialized elective or lab session):\n-   **Lecture Classes:** Large core courses might have class sizes ranging from 40 to 80 students.\n-   **Tutorials/Practicals/Labs:** These sessions are typically smaller, ranging from 20 to 30 students, to allow for more individualized attention and hands-on experience.\n-   **Elective/Specialized Courses:** These tend to have smaller class sizes depending on student enrollment.\n\nThe overall student-faculty ratio (around 15:1 to 20:1) is maintained to facilitate a conducive learning environment and allow for personalized academic mentorship, particularly in higher semesters.",
+      "category": "academic_programs",
+      "keywords": [
+        "class size",
+        "student-faculty ratio",
+        "learning environment",
+        "classroom size",
+        "lecture size"
+      ],
+      "confidence_triggers": [
+        "how many students per class UPES",
+        "UPES class strength",
+        "typical class size"
+      ],
+      "related_question_ids": [
+        22
+      ],
+      "difficulty_level": "basic",
+      "frequency": "low",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/about-us/facts-figures/",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "academic_programs",
+        "campus_life"
+      ]
+    },
+    {
+      "id": 96,
+      "question": "What is the procedure for withdrawal of admission and obtaining a Transfer Certificate (TC) from UPES?",
+      "answer": "The procedure for withdrawal of admission and obtaining a Transfer Certificate (TC) from UPES involves several steps to ensure all formalities are completed:\n1.  **Application:** The student or their parent/guardian must submit a formal written application for withdrawal of admission and issuance of TC to the Registrar's Office or the Admissions Department.\n2.  **Clearance Form:** Obtain and complete a 'No Dues' or 'Clearance Form' from various departments, including accounts (for fee clearance), library (for book returns), hostel (if applicable), and respective academic departments.\n3.  **Original Documents:** Return the original university ID card and any other university property.\n4.  **Fee Adjustment/Refund:** Any applicable refund will be processed as per the university's refund policy (UGC guidelines) after deduction of non-refundable charges and fees for the period of attendance.\n5.  **TC Issuance:** Once all clearances are obtained and dues are settled, the Transfer Certificate, along with original documents submitted at the time of admission, will be issued within a stipulated timeframe.\n\nStudents are advised to initiate this process well in advance and consult the relevant department for exact requirements and timelines.",
+      "category": "academic_policies",
+      "keywords": [
+        "withdrawal of admission",
+        "transfer certificate",
+        "TC",
+        "admission cancellation",
+        "no dues",
+        "refund policy",
+        "leaving university"
+      ],
+      "confidence_triggers": [
+        "how to withdraw from UPES",
+        "get TC from UPES",
+        "admission cancellation process"
+      ],
+      "related_question_ids": [
+        68
+      ],
+      "difficulty_level": "high",
+      "frequency": "low",
+      "source": "academic_regulations",
+      "source_url": "https://www.upes.ac.in/admissions/refund-policy/",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "policies",
+        "admissions"
+      ]
+    },
+    {
+      "id": 97,
+      "question": "Are there student clubs and extracurricular activities available at UPES?",
+      "answer": "Yes, UPES offers a vibrant campus life with a wide array of student clubs and extracurricular activities designed to promote holistic development, explore diverse interests, and build leadership skills. These include:\n-   **Technical Clubs:** Related to various engineering disciplines, computer science, design, and law (e.g., Robotics Club, Cyber Security Club, Moot Court Society, Design Guild).\n-   **Cultural Clubs:** Focused on music, dance, drama, fine arts, and literary pursuits (e.g., Dramatics Society, Music Club, Photography Club).\n-   **Sports Clubs:** Promoting various indoor and outdoor sports.\n-   **Social & Community Service Clubs:** Engaged in social impact initiatives and community outreach.\n-   **Special Interest Groups:** Clubs for quizzing, debating, entrepreneurship, and more.\n\nThese clubs regularly organize events, competitions, and fests, providing platforms for students to showcase their talents, network, and develop soft skills.",
+      "category": "campus_facilities",
+      "keywords": [
+        "student clubs",
+        "extracurricular activities",
+        "campus life",
+        "student organizations",
+        "cultural clubs",
+        "sports clubs",
+        "technical clubs"
+      ],
+      "confidence_triggers": [
+        "UPES student activities",
+        "clubs at UPES",
+        "what can I do outside studies at UPES"
+      ],
+      "related_question_ids": [
+        11,
+        49
+      ],
+      "difficulty_level": "basic",
+      "frequency": "high",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/campus-life/student-clubs-and-societies/",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "campus_life"
+      ]
+    },
+    {
+      "id": 98,
+      "question": "What kind of transportation facilities are available for students commuting to UPES campuses?",
+      "answer": "UPES provides robust transportation facilities for students commuting to and from its campuses, ensuring convenience and safety:\n-   **University Bus Service:** A fleet of university-owned buses operates on various routes across Dehradun and surrounding areas, providing pick-up and drop-off services for day scholars.\n-   **Fixed Routes & Schedules:** The bus service follows fixed routes and schedules, designed to cover major residential areas and convenient pick-up points.\n-   **GPS Tracking:** Some buses may be equipped with GPS tracking for safety and real-time monitoring.\n-   **Safety Measures:** Strict safety protocols are followed, and buses are driven by experienced personnel.\n\nHostel residents typically have access to intra-campus shuttle services or walking distance to academic blocks, depending on campus layout. Students opting for university transport generally pay a separate transportation fee.",
+      "category": "campus_facilities",
+      "keywords": [
+        "transportation",
+        "bus service",
+        "commute",
+        "campus transport",
+        "student bus",
+        "shuttle"
+      ],
+      "confidence_triggers": [
+        "UPES bus routes",
+        "student transport UPES",
+        "commuting to UPES"
+      ],
+      "related_question_ids": [
+        40
+      ],
+      "difficulty_level": "basic",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/campus-life/transportation-facilities/",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "facilities",
+        "campus_life"
+      ]
+    },
+    {
+      "id": 99,
+      "question": "What is the typical faculty-to-student ratio at UPES?",
+      "answer": "UPES maintains a favorable faculty-to-student ratio to ensure personalized attention, effective teaching, and mentorship. While it can vary slightly across different schools and programs, the university generally strives for a ratio of approximately **1:15 to 1:20**. This ratio allows for:\n-   **Individualized Guidance:** More opportunities for one-on-one interaction between students and faculty.\n-   **Effective Mentorship:** Facilitating stronger mentor-mentee relationships.\n-   **Quality Feedback:** Enabling faculty to provide timely and detailed feedback on student performance and progress.\n-   **Small Group Learning:** Supporting small group discussions, project supervision, and practical lab sessions.\n\nThis commitment to a healthy ratio contributes to a more engaging and supportive learning environment.",
+      "category": "academic_programs",
+      "keywords": [
+        "faculty-to-student ratio",
+        "student-teacher ratio",
+        "academic staff",
+        "class size",
+        "teacher numbers"
+      ],
+      "confidence_triggers": [
+        "UPES faculty student ratio",
+        "how many students per teacher",
+        "teacher numbers"
+      ],
+      "related_question_ids": [
+        95
+      ],
+      "difficulty_level": "basic",
+      "frequency": "low",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/about-us/facts-figures/",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "academic_programs",
+        "academics"
+      ]
+    },
+    {
+      "id": 100,
+      "question": "What are the primary dining and cafeteria options available on the UPES campus?",
+      "answer": "UPES provides diverse dining and cafeteria options across its campuses to cater to various tastes and dietary needs of students and staff. These typically include:\n-   **Central Mess Facilities:** Dedicated messes for hostel residents, providing nutritious and hygienic meals (breakfast, lunch, dinner, and snacks) with varied menus.\n-   **Cafeterias/Food Courts:** Multiple cafeteria and food court outlets offering a range of cuisines, from Indian to continental, fast food, and healthy options.\n-   **Nescafe/Snack Bars:** Smaller kiosks and snack bars for quick bites, beverages, and coffee.\n-   **Hygiene Standards:** Strict adherence to hygiene and quality standards in all food preparation and serving areas.\n\nThe university strives to offer a balance of taste, nutrition, and affordability, ensuring a comfortable dining experience for everyone on campus.",
+      "category": "campus_facilities",
+      "keywords": [
+        "dining options",
+        "cafeteria",
+        "mess",
+        "food court",
+        "food options",
+        "campus food"
+      ],
+      "confidence_triggers": [
+        "UPES food facilities",
+        "eating on campus UPES",
+        "cafeteria options"
+      ],
+      "related_question_ids": [
+        69
+      ],
+      "difficulty_level": "basic",
+      "frequency": "medium",
+      "source": "official_website",
+      "source_url": "https://www.upes.ac.in/campus-life/hostel-facilities/",
+      "last_verified": "2025-06-10",
+      "tags": [
+        "facilities",
+        "campus_life"
+      ]
+    }
+
+  ],
+  "search_configuration": {
+    "default_similarity_threshold": 0.6,
+    "keyword_weight": 0.4,
+    "semantic_weight": 0.6,
+    "category_boost": 0.1,
+    "frequency_boost": 0.1,
+    "max_results": 5,
+    "fallback_suggestions": true
+  },
+  "response_templates": {
+    "no_match": "I couldn't find a specific answer to your question. Here are some related topics that might help:",
+    "low_confidence": "I found some information that might be relevant:",
+    "multiple_matches": "I found several relevant answers. Here's the most relevant one:",
+    "category_suggestions": "You might also want to ask about:"
+  },
+  "common_variations": {
+    "admission": [
+      "admissions",
+      "application",
+      "enrollment",
+      "joining"
+    ],
+    "fee": [
+      "fees",
+      "cost",
+      "charges",
+      "payment",
+      "tuition"
+    ],
+    "btech": [
+      "b.tech",
+      "bachelor of technology",
+      "engineering",
+      "b tech"
+    ],
+    "upeseat": [
+      "upes eat",
+      "entrance exam",
+      "admission test"
+    ]
+  }
+}
